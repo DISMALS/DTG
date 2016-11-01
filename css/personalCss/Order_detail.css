@@ -1,0 +1,338 @@
+﻿@charset "utf-8";
+/*
+    *制作软件：Sublime text2
+    *制作时间：2015-10-26
+    *作者：秦骁汉
+    *用途：个人中心 >> 待付款、未发货、待评价、待收货、确定收货、交易关闭页面的内容样式
+*/
+.personMain{
+	width:1190px;
+	height:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.detail_mode{
+	background-color:#fff;
+	padding:63px 0px;
+}
+.s_green{background-color:#7abd54;}
+.s_gray{background-color:#ccc;}
+.detail_mode .content{
+	width:680px;
+	position:relative;
+}
+.detail_mode .content .process{
+	width:33.3%;
+	height:4px;
+	float:left;
+    overflow:hidden;
+}
+.detail_mode .content .Status{
+	position:absolute;
+	text-align:center;
+	width:140px;
+	top:-35px;
+    _top:-27px;
+}
+.detail_mode .content .Status .icon{
+	display:block;
+	width:20px;
+	height:20px;
+	margin:10px auto 8px;
+	text-align:center;
+	line-height:20px;
+	color:#fff;
+	font-weight:bold;
+	font-size:12px;
+}
+.detail_mode .content .Status .i_green{background:url(../../images/Order_detail/i_green_bg.png) no-repeat;}
+.detail_mode .content .Status .seccessPic{background:url(../../images/Order_detail/seccessPic.png) no-repeat;}
+.detail_mode .content .Status .i_gray{background:url(../../images/Order_detail/i_gray_bg.png) no-repeat;}
+.detail_mode .content .Status p{color:#ccc;}
+.detail_mode .content .Status p.h{color:#333;}
+
+.ord_detail{
+    width:940px;
+    height:auto;
+	background:url(../../images/Order_detail/ord_detail_bg.jpg) repeat-x #fff;
+	padding:45px 20px 25px;
+	margin-top:20px;
+}
+.ord_detail .detail_top{
+	margin-bottom:22px;
+}
+.ord_detail .detail_top .left{}
+.ord_detail .detail_top .left p{color:#666;font-family:SimSun;line-height:20px;}
+.ord_detail .detail_top .left .prompt{
+	color:#999;
+	margin-top:3px;
+    font-family:SimSun;
+}
+.ord_detail .detail_top .left span{color:#ff5656; font-weight:bold;}
+.ord_detail .detail_top .left span.fontWei{
+    font-weight:normal;
+}
+.ord_detail input{
+	width:80px;
+	height:26px;
+	line-height:24px;
+	font-size:14px;
+	cursor:pointer;
+}
+.ord_detail .detail_top .right .button1{
+	background:url(../../images/Order_detail/Pay_btn.png) no-repeat center;
+	color:#fff;
+	margin-right:8px;
+}
+.ord_detail .detail_top .right .button1:hover{
+    background:url(../../images/Order_detail/Pay_btnh.png) no-repeat center;
+	color:#fff;
+	margin-right:8px;
+}
+.ord_detail .detail_top .right .button2{
+	background:url(../../images/Order_detail/Reset_btn.png) no-repeat center;
+	color:#999;
+}
+.ord_detail .detail_top .right .button2:hover{
+	background:url(../../images/Order_detail/Reset_btnh.png) no-repeat center;
+	color:#999;
+}
+.ord_detail .ord_info{
+	border:1px solid #e5e5e5;
+}
+.ord_detail .ord_info h2.topic{
+	color:#333;
+	font-size:14px;
+	padding:0px 15px;
+	font-weight:bold;
+	border-bottom:1px solid #e5e5e5;
+	height:38px;
+	line-height:38px;
+}
+
+.ord_detail .ord_info .wrap,.table_wrap{
+	padding:0px 20px;
+}
+.ord_detail .ord_info .info{
+	padding:22px 0px;
+	border-bottom:1px solid #e5e5e5;
+    font-family:SimSun;
+}
+.ord_detail .ord_info .info h3{
+	font-size:14px;
+	color:#333;
+	margin-bottom:15px;
+    font-family:'Microsoft YaHei';
+	/*font-weight:bold;*/
+}
+.ord_detail .ord_info .info .info_con{
+    font-family:SimSun;
+}
+.ord_detail .info_con tbody tr td{
+	padding-bottom:8px;
+}
+.ord_detail .ord_info .info ul{*padding-bottom:22px;}
+.ord_detail .ord_info .info ul li{
+	color:#999;
+	float: left;
+	margin-bottom:10px;
+}
+.ord_detail .ord_info .info ul li span{
+    color:#666;
+}
+.ord_detail .ord_info .info ul li .button3{
+	color:#fff;
+	font-family:"宋体";
+	background:url(../../images/Order_detail/button3_bg.png) no-repeat;
+	width:78px;
+	height:18px;
+	line-height:18px;
+	padding-left:22px;
+	cursor:pointer;
+	font-size:12px;
+}
+.ord_detail .ord_info .info_table{
+	border:1px solid #e5e5e5;
+	margin:20px 0px 25px;
+}
+.ord_detail .ord_info .info_table:hover{
+	border:1px solid #F4BCBC;
+}
+.info_table .top{
+	height:38px;
+	line-height:38px;
+	padding:0px;
+}
+.info_table .top li{
+	float:left;
+	font-size:14px;
+	text-align: center;
+}
+.ord_detail .ord_info .info_table .info_tableright{
+	float:left;
+	height:auto;
+	width:350px;
+}
+.ord_info .info_table .info_tableright div{
+	float:left;
+	margin-top:25px;
+	text-align:center;
+}
+.ord_info .info_table .info_tableright .goods_state{
+	color:#ff6600;
+	width:45%;
+}
+.ord_info .info_table .info_tableright .sum{
+	width:100px;
+	width:50%;
+}
+.ord_info .info_table .info_tableright .total{
+	color:#ff6600;
+}
+.ord_info .info_table .info_tableright .freight{
+	color:#666;
+}
+/*--------------------------------------------------待付款（结束）-------------------------------------------------------*/
+
+
+/*-----------------------------------------------待收货 （结束）------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------未发货-------------------------------------------------------------*/
+.ord_detail .detail_top .left .prompt .tousu{color:#2e78d3;}
+.ord_detail .detail_top .left .prompt .tousu:hover{
+    color:#ff5656;
+}
+.ord_detail .detail_top .right .button4{
+	color:#fff;
+	font-size:14px;
+	background:url(../../images/Order_detail/dsh_btn.png) no-repeat center;
+	cursor:pointer;
+}
+.ord_detail .detail_top .right .button4:hover{
+    background:url(../../images/Order_detail/dsh_btnh.png) no-repeat center;
+}
+.ord_detail .ord_info .tab_nav div{
+	float:left;
+	width:95px;
+	text-align:center;
+	height:37px;
+	margin-right:10px;
+	cursor:pointer;
+    font-size:14px;
+    color:#999;
+    font-weight:normal;
+}
+.ord_detail .ord_info .tab_nav .selected{
+	color:#fd8034;
+    font-weight:bold;
+	border-bottom:3px solid #fd8034;
+}
+.ord_detail .ord_info .tab_content .wl{
+	border-bottom:1px solid #e5e5e5;
+	padding:10px 0px 20px;
+}
+.ord_detail .ord_info .tab_content .wl h3{
+	color:#333;
+	font-size:14px;
+	margin-right:15px;
+}
+.ord_detail .ord_info .tab_content .wl .con{margin-top:4px;}
+.ord_detail .ord_info .tab_content .wl .con li{
+	color:#666;
+	margin-bottom:5px;
+    font-family:SimSun;
+}
+.ord_detail .ord_info .tab_content .wl .con li .data{
+	font-weight:bold;
+	margin-right:10px;
+}
+.ord_detail .ord_info .tab_content .wl .the{
+	margin-left:80px;
+}
+.ord_detail .ord_info .tab_content .wl .the li{
+	color:#333;
+	font-size:14px;
+	margin-bottom:5px;
+}
+.ord_detail .ord_info .tab_content .wl .the li span{
+	font-size:12px;
+	color:#666;
+}
+.ord_detail .ord_info .tab_content .wl .con .hidden{visibility:hidden;}
+.ord_detail .ord_info .tab_content .wl h3,.con,.the{float:left;}
+
+/*-----------------------------------------------------确定收货-------------------------------------------------------------*/
+.ord_detail .sure_info{
+	border:0px solid red;
+}
+.ord_detail .sure_info .left{
+	border-left:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	width:640px;
+    height:207px;
+}
+.ord_detail .sure_info .left h2{
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	color:#333;
+	padding-left:15px;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.ord_detail .sure_info .left .info{
+    font-family:SimSun;
+	padding:15px 0px 0px 25px;
+}
+.ord_detail .sure_info .right{
+	padding:24px 18px 0px 0px;
+	border:1px solid #e5e5e5;
+	width:279px;
+	height:182px;
+	text-align:right;
+}
+.ord_detail .sure_info .right p{
+	color:#999;
+	font-size:14px;
+	margin-bottom:15px;
+}
+.ord_detail .sure_info .right p .total{
+	font-size:20px;
+	color:#ff5656;
+    font-weight:bold;
+}
+.ord_detail .sure_info .right .sure_button{
+	color:#fff;
+	background:url(../../images/Order_detail/dsh_btn.png) no-repeat center;
+}
+.ord_detail .sure_info .right .sure_button:hover{
+    background:url(../../images/Order_detail/dsh_btnh.png) no-repeat center;
+}
+.ord_detail .info_table .bike{
+	border:1px solid #d2d2d2;
+	float:left;
+	width:13px;
+	height:13px;
+	margin-left:20px;
+}
+.ord_detail .info_table .bike{
+	margin-top:52px;
+}
+.ord_detail .info_table ul.top li .bike{
+	margin-top:13px;
+}
+.ord_detail .info_table .productState{
+	margin-top:28px;
+	color:#fd8034;
+}
+/*-------------------------------------------------待评价-----------------------------------------------------*/
+.ord_detail .detail_top .right .button5{
+	color:#000;
+	font-size:14px;
+	background-color:#fcfcfc;
+	border-radius:2px;
+	cursor:pointer;
+	border:1px solid #eaeaea;
+}

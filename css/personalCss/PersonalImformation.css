@@ -1,0 +1,486 @@
+﻿@charset "utf-8";
+
+/*
+    *制作软件：VS2015
+    *制作时间：2015-11-06
+    *作者：王勇
+    *用途：个人资料样式表
+    *
+*/
+
+.CollectT{
+    width:840px;
+    height:45px;
+    padding:0px 70px;
+}
+.CollectT ul{
+    width:170px;
+    height:45px;
+}
+.CollectT ul li{
+    width:85px;
+    height:42px;
+    line-height:50px;
+    font-size:14px;
+    float:left;
+    cursor:pointer;
+}
+.CollectT ul li span{
+    width:85px;
+    height:42px;
+    display:block;
+}
+.CollectT ul li.Normal{
+    color:#666;
+}
+.CollectT ul li.Click{
+    color:#ff5656;
+    text-decoration:none;
+    border-bottom:3px solid #ff5656;
+}
+.CollectT ul li span:hover{
+    color:#ff5656;
+    text-decoration:none;
+    border-bottom:3px solid #ff5656;
+}
+
+/*------------------CollectT END---------------------*/
+
+
+.CollectM{
+    width:980px;
+    height:auto;
+}
+.CollectOneM{
+    width:980px;
+    height:auto;
+}
+.CollectTwoM{
+    width:980px;
+    height:auto;
+    padding-top:40px;
+    padding-bottom:80px;
+}
+.PImformation{
+    width:840px;
+    height:auto;
+    padding:0px 70px;
+}
+.ImformationN{
+    width:840px;
+    height:30px;
+    margin-bottom:15px;
+}
+.ImformationSex,.ImformationEmail,.ImformationPhon,.ImformationFixed,.ImformationTName,.ImformationBurn,.ImformationId{
+    width:840px;
+    height:30px;
+    margin-bottom:9px;
+    position:relative;
+}
+.PImformation span.PImformationL{
+    width:70px;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+}
+.ImformationN input{
+    width:150px;
+    height:28px;
+    line-height:28px;
+    font-size:12px;
+    padding-left:10px;
+    margin-left:3px;
+    color:#333;
+}
+.ImformationN p{
+    margin-left:10px;
+    line-height:30px;
+}
+.ImformationSex input{
+    width:12px;
+    height:12px;
+    margin-top:9px;
+    margin-left:3px;
+}
+.ImformationSex em{
+    width:25px;
+    height:30px;
+    line-height:30px;
+    margin-left:3px;
+}
+.ImformationEmail p{
+    width:130px;
+    height:30px;
+    line-height:30px;
+    margin-left:3px;
+}
+.ImformationEmail a{
+    width:80px;
+    height:30px;
+    line-height:30px;
+    color:#2e78d3;
+}
+.ImformationEmail a:hover,.ImformationPhon a:hover{
+    color:#ff5656;
+}
+.ImformationPhon p.haoma{
+    width:90px;
+    height:30px;
+    line-height:30px;
+    margin-left:3px;
+}
+.ImformationPhon a{
+    width:30px;
+    height:30px;
+    line-height:30px;
+    color:#2e78d3;
+    text-align:right;
+}
+.ImformationPhon p.bding{
+    width:60px;
+    height:30px;
+    line-height:30px;
+    margin-left:10px;
+}
+.ImformationFixed em{
+    width:48px;
+    height:28px;
+    line-height:28px;
+    margin-left:3px;
+}
+.ImformationFixed i{
+    width:10px;
+    height:1px;
+    margin:14px 5px;
+    _margin:0px 5px;
+}
+.ImformationFixed{
+    margin-top:17px;
+}
+.ImformationFixed input{
+    width:68px;
+    height:28px;
+    line-height:28px;
+    font-size:12px;
+    padding-left:10px;
+}
+.ImformationTName{
+    margin-top:27px;
+}
+.ImformationTName input{
+    width:148px;
+    height:28px;
+    line-height:28px;
+    font-size:12px;
+    padding-left:10px;
+}
+.ImformationBurn{
+    margin-top:25px;
+}
+.ImformationBurn p{
+    width:20px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    margin:0px 3px;
+}
+.MBdOm{
+    width:95px;
+    height:30px;
+    position:relative;
+}
+.pj
+{
+    width:83px;
+    height:18px;
+    padding:5px;
+    border:1px solid #dddddd;
+    background:#fff; 
+    position:relative;
+    z-index:16;
+    }
+.pj input
+{
+    width:66px;
+    height:18px;
+    line-height:18px;
+    float:left;
+    color:#333;
+    font-size:12px;
+    cursor:pointer;
+    }
+.mar_r{
+    margin-right:10px;
+}
+.pj em
+{
+    width:17px;
+    height:18px;
+    float:left;
+    display:block;
+    cursor:pointer;
+    }
+.solid_b_btn
+{
+    background:url(../../images/ShopCart/AddPicB.jpg) no-repeat center;
+    }
+.solid_t_btn
+{
+    background:url(../../images/ShopCart/AddPicT.jpg) no-repeat center;
+    }
+.pjMationOne,.pjMationTwo,.pjMationThree
+{
+    width:93px;
+    height:149px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border:1px solid #dddddd; 
+    border-top:none;
+    position:absolute;
+    left:0px;
+    z-index:15;
+    margin-top:30px;
+    background:#fff;
+    }
+.pjMationOne a,.pjMationTwo a,.pjMationThree a
+{
+    width:83px;
+    height:18px;
+    display:block;
+    line-height:18px;
+    padding-left:10px;
+    font-family:"SimSun";
+    }
+.pjMationOne a:hover,.pjMationTwo a:hover,.pjMationThree a:hover{
+    background:#deedff;
+    color:#999;
+    text-decoration:none;
+}
+.ImformationAddres{
+    margin-top:25px;
+}
+.MBdOms{
+    width:113px;
+    height:30px;
+    position:relative;
+}
+.pjs{
+    width:98px;
+    height:18px;
+    padding:5px;
+    border:1px solid #dddddd;
+    position:relative;
+    background:#fff;
+    z-index:11;
+}
+.pjs input
+{
+    width:81px;
+    height:18px;
+    line-height:18px;
+    float:left;
+    color:#333;
+    font-size:12px;
+    font-family:SimSun;
+    cursor:pointer;
+    }
+.pjs em
+{
+    width:17px;
+    height:18px;
+    float:left;
+    display:block;
+    cursor:pointer;
+    }
+.pjMationFour,.pjMationFive,.pjMationSix
+{
+    width:108px;
+    height:149px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border:1px solid #dddddd; 
+    border-top:none;
+    position:absolute;
+    left:0px;
+    z-index:10;
+    margin-top:30px;
+    background:#fff;
+    }
+.pjMationFour a,.pjMationFive a,.pjMationSix a
+{
+    width:98px;
+    height:24px;
+    display:block;
+    line-height:24px;
+    padding-left:10px;
+    font-family:"SimSun";
+    }
+.pjMationFour a:hover,.pjMationFive a:hover,.pjMationSix a:hover{
+    background:#deedff;
+    color:#999;
+    text-decoration:none;
+}
+.ImformationAddres textarea.AddresText{
+    width:388px;
+    height:64px;
+    padding:5px 10px;
+    margin-left:70px;
+    margin-top:8px;
+    font-size:12px;
+    color:#333;
+}
+.ImformationId{
+    margin-top:25px;
+}
+.ImformationId input{
+    width:184px;
+    height:28px;
+    line-height:28px;
+    padding-left:10px;
+    font-size:12px;
+    margin-left:3px;
+}
+.ImformationSub{
+    width:300px;
+    height:26px;
+    margin-left:70px;
+    _margin-left:35px;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+.ImformationSub input{
+    width:100px;
+    height:26px;
+    line-height:24px;
+    background:url(../../images/personal_index/personalImformation/PeriMFOR.png) no-repeat top center;
+    font-size:14px;
+    color:#fff;
+    cursor:pointer;
+}
+.ImformationSub input:hover{
+    background:url(../../images/personal_index/personalImformation/PeriMFORh.png) no-repeat top center;
+}
+.ImformationSub p{
+    line-height:26px;
+    margin-left:15px;
+}
+
+/*
+    *以上是个人资料填写
+    *
+    *
+    *以下是头像修改内容样式
+*/
+
+.HeadPortraitL{
+    width:521px;
+    height:332px;
+    margin-left:95px;
+    _margin-left:50px;
+    background:url(../../images/personal_index/personalImformation/xu_kuang.png) no-repeat top center;
+    position:relative;
+}
+.HeadPortraitL p.shuom{
+    line-height:20px;
+}
+.HeadPortraitLL{
+    width:270px;
+    height:270px;
+    position:relative;
+    z-index:1;
+    top:24px;
+    left:18px;
+    background:#fcfcfc;
+}
+.HeadPortraitLL img{
+    width:230px;
+    height:230px;
+    position:relative;
+    top:20px;
+    left:20px;
+    z-index:2;
+}
+.xiangk{
+    width:270px;
+    height:270px;
+    background:url(../../images/personal_index/personalImformation/neiKuang.png) no-repeat center;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:3;
+}
+.HeadPortraitLR{
+    width:160px;
+    height:auto;
+    position:absolute;
+    top:73px;
+    right:0px;
+    z-index:2;
+}
+.LRUpLoad{
+    width:160px;
+    height:54px;
+    
+}
+.LRUpLoad input{
+    width:76px;
+    height:26px;
+    margin-left:37px;
+    background:url(../../images/personal_index/personalImformation/Upload.png) no-repeat top center;
+    cursor:pointer;
+}
+.LRUpLoad p{
+    line-height:28px;
+    padding-left:7px;
+    color:#9ba8df;
+} 
+.HeadPortraitLR a.bc{
+    width:110px;
+    height:30px;
+    margin-top:123px;
+    margin-left:8px;
+    background:url(../../images/personal_index/personalImformation/baochun.png) no-repeat top center;
+}
+
+
+
+
+
+.HeadPortraitR{
+    width:223px;
+    height:auto;
+    margin-right:95px;
+    _margin-right:25px;
+    margin-top:20px;
+}
+.HeadPortraitR h2{
+    font-size:14px;
+    line-height:24px;
+    font-weight:bold;
+}
+.HeadPortraitR p{
+    font-size:12px;
+    line-height:20px;
+    margin-top:5px;
+    margin-bottom:16px;
+}
+.HeadPortraitR img{
+    border:1px solid #ecf0ff;
+    background:#fcfcfc;
+ }
+.HeadPortraitR img.BigPic{
+    width:98px;
+    height:98px;
+    margin-bottom:30px; 
+}
+.HeadPortraitR em{
+    width:100px;
+    height:28px;
+    line-height:28px;
+    font-size:12px;
+    margin-left:10px;
+}
+.HeadPortraitR img.SmailPic{
+    width:48px;
+    height:48px;
+}

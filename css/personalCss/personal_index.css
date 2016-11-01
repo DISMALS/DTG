@@ -1,0 +1,185 @@
+﻿@charset 'utf-8';
+	
+/*
+ 
+ * 制作时间：2015-10-13
+ * 作者：王勇
+ * 使用软件：HBuilder 6.5.0
+ * 样式使用于个人中心首页部分
+ * 
+ * 
+ * */
+.RightOrder{
+	width:983px;
+	height:auto;
+	background:#fff;
+	margin-top:20px;
+}
+.OrderTitle{
+	width:983px;
+	height:52px;
+	line-height:52px;
+}
+.OrderTitleL{
+	width:180px;
+	height:52px;
+	padding-left:20px;
+}
+.OrderTitleL h3{
+	font-size:16px;
+	color:#333333;
+}
+.OrderTitleR{
+	width:85px;
+	height:52px;
+	margin-right:20px;
+}
+.OrderTitleR a,.LikeTitleR a{
+	color:#888888;
+	font-size:12px;
+}
+.OrderTitleR a:hover,.LikeTitleR a:hover{
+    color:#ff5656;
+}
+.OrderTitleR a h4{
+	width:77px;
+	height:52px;
+	float:left;
+	font-size:12px;
+}
+.LikeTitleR a h4{
+	width:54px;
+	height:52px;
+	float:left;
+	font-size:12px;
+}
+.OrderTitleR a b,.LikeTitleR a b{
+	width:7px;
+	height:5px;
+    background:url(../../images/personal_index/mor_pic.png) no-repeat center;
+	float:left;
+	margin-top:24px;
+    _margin-top:18px;
+	position:relative;
+}
+.OrderMain{
+	width:983px;
+	height：auto;
+}
+.OrderMainList{
+	width:943px;
+	height:auto;
+	padding:28px 20px;
+}
+ .OrderMainListBorB{
+    border-bottom:1px solid #f2f2f2;
+ }
+.MainListL{
+	width:252px;
+	height:58px;
+}
+.MainListL img{
+	width:58px;
+	height:58px;
+}
+.MainListL img:hover{
+	width:56px;
+	height:56px;
+	border:1px solid #f4f4f4;
+}
+.MainListC{
+	width:480px;
+	height:58px;
+	margin-left:45px;
+}
+.MainListC ul{
+	width:480px;
+	height:58px;
+}
+.MainListC ul li{
+	width:160px;
+	height:58px;
+	float:left;
+}
+.MainListC ul li p{
+	color:#999999;
+	font-size:12px;
+	line-height:20px;
+	margin-top:9px;
+}
+.MainListC ul li p i{
+	color:#fd6d37;
+}
+.MainListC ul li b{
+	width:160px;
+	height:58px;
+	display:block;
+	text-align:center;
+	line-height:58px;
+	font-size:14px;
+	color:#333333;
+}
+.MainListC ul li em{
+	width:160px;
+	height:58px;
+	display:block;
+	text-align:center;
+	line-height:58px;
+	font-size:14px;
+	color:#ff5656;
+}
+.MainListC ul li em i{
+	font-size:20px;
+}
+.MainListR{
+	width:95px;
+	height:26px;
+	margin-top:14px;
+	margin-left:70px;
+	background:url(../../images/personal_index/xq_btn.png) no-repeat center;
+}
+.MainListR a{
+	width:95px;
+	height:26px;
+	display:block;
+	line-height:25px;
+	text-align:center;
+	color:#ffffff;
+	font-size:12px;
+	text-decoration:none;
+}
+.NothingOrder{
+	width:983px;
+	height:160px;
+	padding-top:75px;
+}
+.NothingOrderM{
+	width:380px;
+	height:50px;
+	line-height:50px;
+	background:url(../../images/personal_index/nothing/gwc_pic.png) no-repeat left center;
+}
+.NothingOrderM p,.NothingViewM p{
+	width:298px;
+	height:50px;
+	padding-left:82px;
+	font-size:14px;
+	color:#cccccc;
+}
+.NothingOrderM p a,.NothingViewM p a{
+	color:#6fb0f9;
+
+}
+.NothingOrderM p a:hover,.NothingViewM p a:hover{
+    text-decoration:underline;
+}
+
+/*-------------------RightOrder END------------------*/
+
+
+.NothingViewM{
+	width:380px;
+	height:50px;
+	line-height:50px;
+	background:url(../../images/personal_index/nothing/xjy_pic.png) no-repeat left center;
+}

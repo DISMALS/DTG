@@ -1,0 +1,763 @@
+﻿@charset "utf-8";
+
+/*
+    *制作软件：VS2015
+    *制作时间：2015-11-03
+    *作者：王勇
+    *用途：个人中心 > 评价
+    *
+*/
+
+
+/*
+    *
+    *
+    *以下是评价中开始
+*/
+.ComplaintsTL{
+    width:70px;
+    height:50px;
+    font-size:16px;
+    line-height:50px;
+    font-weight:bold;
+}
+.ComplaintsTR{
+    padding-left:20px;
+    line-height:54px;
+}
+.RRListT a.OnlineS{
+    width:85px;
+    height:22px;
+    margin-top:14px;
+}
+.RRListT a.OnlineS img{
+    width:85px;
+    height:22px;
+}
+.RRListT h3.PJName{
+    margin-top:14px;
+    width:220px;
+    height:22px;
+    line-height:22px;
+    margin-right:20px;
+    font-size:14px;
+}
+
+/*-----------------RRListT END--------------------*/
+
+.EvaM{
+    width:980px;
+    height:auto;
+    background:#fff;
+    position:relative;
+}
+.EvaML{
+    width:188px;
+    height:188px;
+    border-right:1px dashed #ececec;
+    padding:20px 42px 20px 20px;
+    position:relative;
+    z-index:2;
+}
+.EvaML a{
+    display:block;
+}
+.EvaML a.EvaMLPic{
+    width:180px;
+    height:180px;
+    padding:3px;
+}
+.EvaML a.EvaMLPic img{
+    width:180px;
+    height:180px;
+}
+.EvaML em{
+    width:33px;
+    height:11px;
+    position:absolute;
+    right:-17px;
+    z-index:3;
+    background:url(../../images/refundment/Apply/ApplySuoKou.png) no-repeat center;
+}
+.EvaML em.EvaMLT{
+    top:30px;
+}
+.EvaML em.EvaMLB{
+    top:187px;
+}
+
+
+/*---------EvaML END---------*/
+
+
+.EvaMC{
+    width:405px;
+    height:188px;
+    padding:20px 0px;
+    margin:0px 44px 0px 50px;
+    _margin:0px 20px 0px 40px;
+    position:relative;
+    z-index:1;
+}
+.EvaMC h3{
+    width:400px;
+    height:24px;
+    font-size:12px;
+    line-height:24px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.EvaMC span{
+    width:400px;
+    height:14px;
+    line-height:14px;
+    margin:20px 0px 15px 0px;
+}
+.EvaMC span i{
+    width:70px;
+    height:14px;
+    font-size:14px;
+    display:inline-block;
+}
+.EvaMC span a{
+    width:14px;
+    height:12px;
+    margin-top:1px;
+    display:inline-block;
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationG.png) no-repeat center;
+}
+.EvaMC span a.EvaMCy{
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationH.png) no-repeat center;
+}
+/*.EvaMC span a.EvaMCg{
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationG.png) no-repeat center;
+}*/
+.EvaMC textarea{
+    font-size:12px;
+}
+.EvaMCText{
+    width:385px;
+    height:93px;
+    padding:10px;
+    _margin-left:-40px;
+}
+
+/*---------EvaMC END---------*/
+
+.EvaMR{
+    width:210px;
+    height:182px;
+    padding:26px 20px 20px 0px;
+    _padding:26px 0px 20px 20px;
+}
+.EvaMR ul{
+    width:210px;
+    height:140px;
+}
+.EvaMR ul li{
+    width:54px;
+    height:54px;
+    padding:2px;
+    margin-left:10px;
+    _margin-left:5px;
+    margin-bottom:10px;
+}
+.EvaMR ul li img{
+    width:54px;
+    height:54px;
+}
+.EvaMRBtnM{
+    width:210px;
+    height:34px;
+    margin-left:10px;
+    _margin-left:5px;
+    margin-top:10px;
+}
+.EvaMRBtnM input{
+    width:112px;
+    height:34px;
+    font-size:12px;
+    padding-left:15px;
+    cursor:pointer;
+    background:url(../../images/Collect_Evaluation_Complaints/EvaMRBtn.png) no-repeat top center;
+}
+.EvaMRBtnM p{
+    font-size:12px;
+    line-height:34px;
+    margin-left:15px;
+}
+.Null{
+    background:url(../../images/Collect_Evaluation_Complaints/KONG.jpg) no-repeat right center;
+}
+
+
+/*---------EvaMR END---------*/
+
+
+/*------------------------EvaM END----------------------------*/
+
+
+.EvaSend{
+    width:978px;
+    height:118px;
+    background:#fff;
+}
+.EvaSend span.EvaSendL{
+    width:208px;
+    height:118px;
+    line-height:118px;
+    padding-left:72px;
+    font-size:14px;
+}
+.EvaSendM{
+    width:360px;
+    height:118px;
+}
+.EvaSendM span{
+    font-size:14px;
+    padding-top:32px;
+}
+.EvaSendM span.EvaSendML{
+    width:179px;
+    _width:175px;
+    height:86px;
+    border-right:1px dashed #ececec;
+}
+.EvaSendM span.EvaSendML i,.EvaSendM span.EvaSendMR i{
+    width:180px;
+    _width:175px;
+    height:20px;
+    line-height:20px;
+    margin-bottom:18px;
+}
+
+.EvaSendM  a,.EvaSendM a{
+    width:14px;
+    height:12px;
+    display:inline-block;
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationG.png) no-repeat center;
+}
+.EvaSendM span.EvaSendMR{
+    width:180px;
+    height:86px;
+}
+.EvaSendM a.EvaMCy{
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationH.png) no-repeat center;
+}
+
+
+
+
+
+
+
+.EvaSend input{
+    width:170px;
+    height:40px;
+    margin-top:40px;
+    margin-left:111px;
+    cursor:pointer;
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationBtn.png) no-repeat top center;
+    line-height:39px;
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+}
+.EvaSend input:hover{
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationBtnH.png) no-repeat top center;
+}
+
+
+/*---------EvaSend END---------*/
+
+/*
+    *以上是评价中结束
+    *
+    *
+    *以下是评价成功开始
+*/
+
+
+
+.EvaSeccesT{
+    width:110px;
+    height:50px;
+    padding:10px 0px 10px 100px;
+    margin:80px auto;
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationRight.png) no-repeat left center;
+}
+.EvaSeccesT h3{
+    font-size:16px;
+    line-height:32px;
+}
+.EvaSeccesC{
+    width:980px;
+    height:1px;
+    border-bottom:1px solid #f9f9f9;
+}
+
+
+/*---------EvaSeccesT END---------*/
+
+
+
+
+.Recommend{
+	width:940px;
+	height:auto;
+    padding:50px 20px 0px 20px;
+}
+.RecommendT{
+	width:940px;
+	height:36px;
+	line-height:36px;
+	border-bottom:2px solid #f2f2f2;
+}
+.RecommendTL{
+	font-size:16px;
+	
+}
+.RecommendTL h2{
+	width:200px;
+	font-weight:bold;
+	color:#333;
+    font-size:16px;
+}
+.LikeTitleRs{
+	width:70px;
+	height:36px;
+}
+.LikeTitleRs a{
+	width:70px;
+	height:36px;
+	display:block;
+	color#888;
+}
+.LikeTitleRs a h4{
+	width:55px;
+	height:36px;
+	float:left;
+    color:#999;
+}
+.LikeTitleRs a img{
+	float:left;
+	margin-top:16px;
+	width:7px;
+	height:5px;
+}
+.RecommendM{
+	width:940px;
+	height:auto;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.RecommendMOne{
+	width:220px;
+	height:auto;
+	padding-bottom:10px;
+	display:block;
+    margin-bottom:30px;
+}
+.RecommendMOne:hover .RecommondMOneTit h3{
+    color:#ff5656;
+} 
+.RecommendMOne img{
+	width:220px;
+	height:220px;
+}
+.RecommendMOneP{
+	width:200px;
+	height:30px;
+	line-height:30px;
+	padding:0px 10px;
+}
+.RecommendMOneP h2{
+	width:110px;
+	height:30px;
+	float:left;
+	font-size:20px;
+	color:#ff5656;
+}
+.RecommendMOneP del{
+	color:#cccccc;
+}
+.RecommondMOneTit{
+	width:200px;
+	height:22px;
+	line-height:22px;
+	padding:0px 10px;
+}
+.RecommondMOneTit a{
+	text-decoration:none;
+}
+.RecommondMOneTit h3{
+	width:200px;
+	height:22px;
+	font-family:"SimSun";
+	color:#333;
+    font-size:12px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.RecommendMOneBlur{
+	border-bottom:2px solid #fafafa;
+}
+.RecommendMOneFocus{
+	border-bottom:2px solid #ff5656;
+	background:#fafafa;
+}
+.RecommendMOneR{
+	margin-right:20px;
+}
+
+
+
+/*---------Recommend END---------*/
+
+/*
+    *以上是评价成功结束
+    *
+    *
+    *以下是我的评价列表开始
+*/
+
+
+.RRListT a.EvaList{
+    text-decoration:none;
+    width:80px;
+    height:50px;
+    line-height:50px;
+    font-size:14px;
+}
+.EveListM{
+    width:920px;
+    height:auto;
+    padding:40px 30px;
+    background:#fff;
+    margin-top:10px;
+    _margin-left:20px;
+    border-bottom:2px solid #f9f9f9;
+    position:relative;
+    left:0px;
+    z-index:1;
+}
+.EveListMOne{
+    width:918px;
+    height:auto;
+    position:relative;
+    margin-bottom:20px;
+}
+.EveListML{
+    width:236px;
+    min-height:240px;
+    position:relative;
+    z-index:2; 
+}
+.EveListMOne img.EveListMOnePic{
+    width:236px;
+    height:236px;
+}
+
+
+/*---------EveListMOne img END---------*/
+
+.EveListMR{
+    width:681px;
+    min-height:240px;
+    position:relative;
+    z-index:3; 
+}
+.EveListMName{
+    width:681px;
+    height:55px;
+    padding-top:15px;
+    position:relative;
+    z-index:3;
+}
+.EveListMName span{
+    width:81px;
+    height:40px;
+    line-height:40px;
+    display:block;
+    font-size:14px;
+    padding-left:38px;
+}
+.EveListMName h3{
+    width:532px;
+    height:18px;
+    padding-left:28px;
+    line-height:18px;
+    font-size:12px;
+}
+.EveListMName h5{
+    width:532px;
+    height:22px;
+    padding-left:28px;
+    line-height:22px;
+    font-size:12px;
+}
+
+
+/*---------EveListMName END---------*/
+
+
+.EveListMeva{
+    width:681px;
+    height:auto;
+    line-height:30px;
+    position:relative;
+    z-index:3;
+}
+.EveListMeva span{
+    width:82px;
+    height:30px;
+    font-size:14px;
+    padding-left:38px;
+    margin-top:15px;
+}
+.EveListMeva h3{
+    width:350px;
+    font-size:12px;
+    padding:20px 0px 20px 28px; 
+    line-height:20px;
+}
+.EveListMeva h5{
+    width:102px;
+    font-size:12px;
+    margin-right:24px;
+    margin-top:15px;
+}
+
+/*---------EveListMeva END---------*/
+
+.EveListMMyeva{
+    width:681px;
+    height:108px;
+    position:relative;
+    z-index:3;
+}
+.EveListMMyeva span.MMyevaL{
+    width:82px;
+    height:54px;
+    line-height:54px;
+    font-size:14px;
+    padding-left:38px;
+    margin-top:27px;
+}
+.EveListMMyeva span.MMyevaC{
+    width:130px;
+    height:36px;
+    margin-top:36px;
+    padding-left:28px;
+}
+.EveListMMyeva span.MMyevaC a{
+    width:14px;
+    height:12px;
+    display:inline-block;
+    cursor:default;
+}
+.EveListMMyeva span.MMyevaC a.EvaMCy{
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationH.png) no-repeat center;
+}
+.EveListMMyeva span.MMyevaC a.EvaMCg{
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationG.png) no-repeat center;
+}
+.EveListMMyeva span.MMyevaC em{
+    font-size:12px;
+    line-height:24px;
+}
+
+/*---------EveListMMyeva END---------*/
+
+.MMyevaR{
+    width:250px;
+    height:40px;
+    margin-top:34px;
+}
+.MMyevaR li{
+    float:left;
+    width:36px;
+    height:36px;
+    padding:1px;
+    margin-right:10px;
+    border:1px solid #e5e5e5;
+}
+.MMyevaRr{
+    width:90px;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+    margin-right:24px;
+    _margin-right:24px;
+    margin-top:44px;
+}
+
+/*---------MMyevaR END---------*/
+
+.EveListMName b.EveListMOneIcon{
+    width:21px;
+    height:22px;
+    display:block;
+    position:absolute;
+    top:25px;
+    left:-11px;
+    background:url(../../images/Collect_Evaluation_Complaints/SailerPic.png) no-repeat top -1px center;
+    z-index:4;
+}
+
+.EveListMeva b.EveListMOneIcon{
+    width:21px;
+    height:22px;
+    display:block;
+    position:absolute;
+    top:19px;
+    left:-11px;
+    background:url(../../images/Collect_Evaluation_Complaints/SailerPic.png) no-repeat top -1px center;
+    z-index:4;
+}
+.EveListMMyeva b.EveListMOneIcon{
+    width:21px;
+    height:22px;
+    display:block;
+    position:absolute;
+    top:42px;
+    left:-11px;
+    background:url(../../images/Collect_Evaluation_Complaints/SailerPic.png) no-repeat top -1px center;
+    z-index:4;
+}
+
+/*---------Icon END---------*/
+
+
+.EveListMB{
+    width:920px;
+    height:140px;
+    background:#fff;
+    padding:25px 30px 40px;
+    _margin-left:20px;
+    position:relative;
+    z-index:2;
+}
+.EveListMB img.EveListMBPic{
+    width:130px;
+    height:130px;
+    margin:10px 33px 0px;
+}
+.EveListMBC{
+    width:147px;
+    height:88px;
+    padding-left:78px;
+    margin-top:26px;
+    margin-left:40px;
+    border-left:2px solid #f9f9f9;
+}
+.EveListMBC span.EveListMBCT{
+    width:150px;
+    height:12px;
+    line-height:12px;
+    margin-top:27px;
+}
+.EveListMBC span.EveListMBCB{
+    width:150px;
+    height:12px;
+    line-height:12px;
+}
+.EveListMBC span.EveListMBCT i,.EveListMBC span.EveListMBCB i{
+    font-size:12px;
+}
+.EveListMBC span.EveListMBCT a,.EveListMBC span.EveListMBCB a{
+    width:14px;
+    height:12px;
+    display:inline-block;
+    cursor:default;
+}
+.EveListMBC span a.EvaMCy{
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationH.png) no-repeat center;
+}
+.EveListMBC span a.EvaMCg{
+    background:url(../../images/Collect_Evaluation_Complaints/EvaluationG.png) no-repeat center;
+}
+
+
+/*---------EveListMBC END---------*/
+
+
+.EveListMB span.EveListMBR{
+    width:170px;
+    height:50px;
+    margin-top:45px;
+}
+.EveListMB span.EveListMBR a{
+    font-size:12px;
+    text-decoration:none;
+    line-height:20px;
+}
+.EveListMB span.EveListMBR em{
+    line-height:30px;
+    font-size:12px;
+    color:#ccc;
+}
+
+/*---------EveListMB END---------*/
+
+
+.EveListMB b.PositionLO{
+    width:11px;
+    height:33px;
+    background:url(../../images/ShopCart/call.png) no-repeat center;
+    position:absolute;
+    z-index:5;
+    top:-18px;
+    left:30px;
+}
+
+.EveListMB b.PositionLT{
+    width:11px;
+    height:33px;
+    background:url(../../images/ShopCart/call.png) no-repeat center;
+    position:absolute;
+    z-index:5;
+    top:-18px;
+    left:60px;
+}
+.EveListMB b.PositionRO{
+    width:11px;
+    height:33px;
+    background:url(../../images/ShopCart/call.png) no-repeat center;
+    position:absolute;
+    z-index:5;
+    top:-18px;
+    right:30px;
+}
+.EveListMB b.PositionRT{
+    width:11px;
+    height:33px;
+    background:url(../../images/ShopCart/call.png) no-repeat center;
+    position:absolute;
+    z-index:5;
+    top:-18px;
+    right:60px;
+}
+
+/*---------EveListMB b END---------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

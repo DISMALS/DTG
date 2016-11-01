@@ -1,0 +1,608 @@
+﻿@charset "utf-8";
+
+/*
+*使用软件：Sublime Text2
+*制作时间：2015-10-26
+*作者：王勇
+*用途：购物车-提交页面样式表
+*/
+
+
+.ShopCart{
+	width:1000px;
+	height:auto;
+	margin-top:50px;
+}
+.ShopCartTop{
+	width:1000px;
+	height:65px;
+	margin-bottom:36px;
+    _margin-bottom:0px;
+}
+.ShopCartTopL{
+	width:137px;
+	height:65px;
+}
+.ShopCartTopL img{
+	width:137px;
+	height:65px;
+}
+.ShopCartTopR{
+	width:520px;
+	height:52px;
+	position:relative;
+	top:6.5px;
+}
+.TopRHuiB{
+	width:460px;
+	height:20px;
+	display:block;
+	background:url(../../images/ShopCart/grayB.jpg) repeat-x left 8px;
+	position:relative;
+	z-index:2;
+}
+.TopRLanB{
+	width:20px;
+	height:4px;
+	background:#7abd54;
+    overflow:hidden;
+	position:absolute;
+	top:8px;
+	z-index:3;
+}
+.ShopCartTopROne{
+	width:80px;
+	height:52px;
+	position:relative;
+	z-index:4;
+	text-align:center;
+}
+.ShopCartTopROne span{
+	width:20px;
+	height:20px;
+	line-height:20px;
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+}
+.ShopCartTopROne h3{
+	width:80px;
+	height:32px;
+	line-height:32px;
+    font-size:12px;
+}
+.ShopCartTopROne h3.NoSel {
+    color:#bfbfbf;
+}
+.PosiO{
+	top:0px;
+	left:-30px;
+}
+.PosiT{
+	top:-52px;
+	left:190px;
+}
+.PosiTH{
+	top:-104px;
+	left:410px;
+}
+.Lan{
+	background:url(../../images/ShopCart/i_green_bg.png) no-repeat center;
+}
+.Hui{
+	background:url(../../images/ShopCart/i_gray_bg.png) no-repeat center;
+}
+
+
+
+/*--------------------ShopCartTop END-----------------------*/
+
+
+.ShopCartMain{
+	width:1000px;
+	height:auto;
+	margin-bottom:40px;
+}
+.ShopCartMTop{
+	width:1000px;
+	height:44px;
+	line-height:44px;
+}
+.ShopCartMTop h2{
+	color:#444444;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+
+.ShopCartMTitle{
+	width:1000px;
+	height:36px;
+	background:#f5f5f5;
+	line-height:36px;
+}
+.ShopCartMTitle h4{
+	font-size:14px;
+	color:#666666;
+}
+.AllSelect{
+	width:90px;
+	height:36px;
+}
+.AllSelect input.InputTop{
+	width:13px;
+	height:13px;
+	margin-top:13px;
+	margin-right:10px;
+	margin-left:10px;
+}
+.ProductName{
+	width:241px;
+	height:36px;
+	padding-left:59px;
+}
+.ProductPrice{
+	width:160px;
+	height:36px;
+	text-align:center;
+}
+.CutPrice{
+	width:85px;
+	height:36px;
+	text-align:center;
+}
+.ProductMuch{
+	width:170px;
+	height:36px;
+	text-align:center;
+}
+.Total{
+	width:94px;
+	height:36px;
+	text-align:center;
+}
+.DoingIt{
+	width:81px;
+	height:36px;
+	text-align:right;
+	padding-right:20px;
+}
+
+
+/*---------------ShopCartMTitle END---------------*/
+
+
+.ShopCartMList{
+	width:1000px;
+	height:auto;
+}
+.MListOne{
+	width:998px;
+	height:auto;
+	margin-top:20px;
+	border:1px solid #e5e5e5;
+}
+.MListOneT{
+	width:998px;
+	height:38px;
+	line-height:38px;
+}
+.MListOneT input.InputKuai{
+	width:13px;
+	height:13px;
+	margin-top:12px;
+	margin-right:10px;
+	margin-left:15px;
+}
+.MListOneT h3{
+	font-size:12px;
+	color:#666666;
+}
+
+
+
+.MListOneM{
+	width:998px;
+	height:auto;
+}
+.MProduct{
+	width:998px;
+	height:116px;
+	border-top:1px solid #e5e5e5;
+}
+.MProduct input.Inputs{
+	width:13px;
+	height:13px;
+	margin-top:51.5px;
+	margin-right:20px;
+	margin-left:19px;
+}
+.MProduct img{
+	width:58px;
+	height:58px;
+	border:1px solid #eeeeee;
+	margin-top:28px;
+}
+.MProductFocus{
+	background:#fcfffa;
+}
+.MProductTitle{
+	width:268px;
+	height:60px;
+	padding-left:10px;
+	margin-top:30px;
+	line-height:21px;
+	font-family:"SimSun";
+	font-size:12px;
+}
+.MProductTitle a{
+    color:#333;
+	text-decoration:none;
+}
+.MProductTitle a:hover{
+    color:#ff5656;
+}
+.MProductTitle h2{
+    width:268px;
+    max-height:36px;
+    line-height:18px;
+    overflow:hidden;
+	
+    font-size:12px;
+	
+}
+.MProductTitle h3{
+	color:#999;
+    font-size:12px;
+}
+
+.MProductPrice{
+	width:160px;
+	height:60px;
+	line-height:20px;
+	margin-top:30px;
+}
+.MProductPrice p{
+	font-size:12px;
+	color:#333;
+}
+.MProductCut{
+	width:85px;
+	height:60px;
+	line-height:20px;
+	margin-top:30px;
+}
+.MProductMuch{
+	width:170px;
+	height:60px;
+	margin-top:30px;
+}
+.MProductMuchM{
+	width:82px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	/*background:#fff;*/
+}
+.MProductMuchM em{
+	color:#333;
+}
+.MProductMuchM span{
+	color:#999;
+}
+.MProductMuchM span.fu{
+	color:#dcdcdc;
+}
+.MuchL{
+	width:18px;
+	height:18px;
+	line-height:16px;
+	cursor:pointer;
+	border:1px solid #e5e5e5;
+}
+.MuchC{
+	width:42px;
+	height:20px;
+}
+.MuchC input{
+	width:42px;
+	height:18px;
+	text-align:center;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.MProductTotal{
+	width:94px;
+	height:60px;
+	margin-top:30px;
+	line-height:20px;
+}
+.MProductTotal h4{
+	color:#ff5656;
+	font-weight:bold;
+}
+.MProductDoing{
+	width:99px;
+	height:60px;
+	line-height:20px;
+	margin-top:30px;
+}
+.MProductDoing a{
+	width:79px;
+	height:20px;
+	padding-right:20;
+	display:block;
+	text-align:right;
+	font-family:"SimSun";
+	font-size:12px;
+	color:#666;
+	text-decoration:none;
+}
+.MProductDoing a:hover{
+	color:#f25781;
+}
+
+
+/*---------------MListOneM END-----------------*/
+
+
+.MListB{
+	width:1000px;
+	height:48px;
+	margin-top:20px;
+	line-height:24px;
+}
+.MListB h4{
+	font-size:12px;
+	font-family:"SimSun";
+	color:#666;
+}
+.MListB h4:hover{
+    color:#ff5656;
+}
+.MListB h4 em{
+    font-family:Microsoft YaHei;
+}
+.AllSelect input.InputFoot{
+	width:13px;
+	height:13px;
+	margin-top:6px;
+	margin-right:10px;
+	margin-left:10px;
+}
+.Remove{
+	width:100px;
+	height:24px;
+    cursor:pointer;
+}
+.Move{
+	width:100px;
+	height:24px;
+    cursor:pointer;
+}
+.BTotal{
+	width:130px;
+	height:48px;
+	padding-right:10px;
+}
+.MListB h4 i{
+	font-family:"Microsoft YaHei";
+	color:#ff5656;
+	font-size:16px;
+	font-weight:bold;
+}
+.mar{
+	margin-left:10px;
+}
+
+
+/*---------------MListB END-----------------*/
+
+
+.MListBT{
+	width:998px;
+	height:44px;
+	line-height:46px;
+	text-align:right;
+	border:1px solid #e5e5e5;
+	position:relative;
+	z-index:1;
+	margin-top:25px;
+}
+.MListBT span{
+    width:auto;
+    height:44px;
+    display:block;
+    float:right;
+	color:#999999;
+	font-size:14px;
+}
+.MListBT span em{
+	color:#ff5656;
+}
+.MListBT span i{
+	color:#ff5656;
+	font-size:16px;
+	font-weight:bold;
+}
+.MListBT input{
+	width:126px;
+	height:44px;
+    float:right;
+	line-height:42px;
+	text-align:center;
+	color:#fff;
+	background:#dddddd;
+	font-size:20px;
+	font-weight:bold;
+	margin-left:20px;
+}
+.MListBT input.Bs{
+	width:126px;
+	height:46px;
+	background:#ff5656;
+	margin-top:-1px;
+	margin-right:-1px;
+	cursor:pointer;
+}
+.tsY{
+	width:184px;
+	height:34px;
+	line-height:26px;
+	text-align:center;
+	background:url(../../images/ShopCart/tsY_bj.png) no-repeat top center;
+	position:absolute;
+	top:-34px;
+	z-index:2;
+	right:0px;
+}
+.tsY span{
+	font-family:"SimSun";
+	color:#fc8134;
+	font-size:12px;
+}
+
+
+/*--------------MListBT END--------------*/
+
+
+
+.Recommend{
+	width:1000px;
+	height:auto;
+}
+.RecommendT{
+	width:1000px;
+	height:36px;
+	line-height:36px;
+	border-bottom:2px solid #f2f2f2;
+}
+.RecommendTL{
+	font-size:16px;
+	
+}
+.RecommendTL h2{
+	width:200px;
+	font-weight:bold;
+	color:#333;
+    font-size:16px;
+}
+.LikeTitleRs{
+	width:70px;
+	height:36px;
+}
+.LikeTitleRs a{
+	width:70px;
+	height:36px;
+	display:block;
+	color:#999;
+}
+.LikeTitleRs a:hover{
+    color:#ff5656;
+}
+.LikeTitleRs a h4{
+	width:55px;
+	height:36px;
+	float:left;
+}
+.LikeTitleRs a b{
+    width:7px;
+	height:5px;
+	float:left;
+    background:url(../../images/personal_index/mor_pic.png) no-repeat center;
+	margin-top:16px;
+    _margin-top:10px;
+}
+.RecommendM{
+	width:1000px;
+	height:auto;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+.RecommendMOne{
+	width:230px;
+	height:auto;
+	padding-bottom:17px;
+	display:block;
+}
+.RecommendMOne img{
+	width:230px;
+	height:230px;
+}
+.RecommendMOneP{
+	width:210px;
+	height:30px;
+	line-height:30px;
+	padding:0px 10px;
+}
+.RecommendMOneP h2{
+	width:110px;
+	height:30px;
+	float:left;
+	font-size:20px;
+	color:#ff5656;
+}
+.RecommendMOneP del{
+	color:#cccccc;
+}
+.RecommondMOneTit{
+	width:210px;
+	height:22px;
+	line-height:22px;
+	padding:0px 10px;
+}
+.RecommondMOneTit a{
+	text-decoration:none;
+}
+.RecommondMOneTit h3{
+	width:210px;
+	height:22px;
+	font-family:"SimSun";
+	color:#333;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+    font-size:12px;
+}
+.RecommondMOneTit h3:hover{
+    color:#ff5656;
+}
+.RecommendMOneBlur{
+	border-bottom:2px solid #fafafa;
+}
+.RecommendMOneFocus{
+	border-bottom:2px solid #ff5656;
+	background:#fafafa;
+}
+.RecommendMOneR{
+	margin-right:26px;
+}
+
+.NothingOrder{
+	width:983px;
+	height:160px;
+	padding-top:75px;
+}
+.NothingOrderM{
+	width:380px;
+	height:50px;
+	line-height:50px;
+	background:url(../../images/personal_index/nothing/gwc_pic.png) no-repeat left center;
+}
+.NothingOrderM p,.NothingViewM p{
+	width:298px;
+	height:50px;
+	padding-left:82px;
+	font-size:14px;
+	color:#cccccc;
+}
+.NothingOrderM p a,.NothingViewM p a{
+	color:#6fb0f9;
+
+}
+.NothingOrderM p a:hover,.NothingViewM p a:hover{
+    text-decoration:underline;
+}

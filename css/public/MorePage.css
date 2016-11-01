@@ -1,0 +1,109 @@
+﻿@charset "utf-8";
+
+/*
+*制作时间：2015-10-20
+*使用工具：VS2010
+*作者王勇
+*用途：个人中心>我的订单分页样式
+*/
+
+.MorePage
+{
+    width:465px;
+    height:22px;
+    line-height:22px;
+    text-align:center;
+    margin-top:20px;
+    }
+.Prve,.Next
+{
+    width:52px;
+    height:20px;
+    margin:0px 2px;
+    border:1px solid #dcdcdc;
+    
+    }
+.Prve a,.Next a
+{
+    color:#cccccc;
+    text-decoration:none;
+    }
+.PageM
+{
+    width:163px;
+    height:22px;
+    }
+.PageM a
+{
+    width:20px;
+    height:20px;
+    line-height:22px;
+    display:block;
+    float:left;
+    color:#cccccc;
+    margin:0px 2px;
+    border:1px solid #dcdcdc;
+    text-decoration:none;
+    }
+.PageM a:hover
+{
+    border:1px solid #68acff;
+    color:#68acff;
+    font-weight:bold;
+    }
+.PageMClick   /*---分页标签鼠标点击后的样式--*/
+{
+    border:1px solid #68acff;
+    color:#68acff;
+    font-weight:bold;
+    }
+.TitlePage
+{
+    width:45px;
+    height:22px;
+    
+    }
+.TitlePage h3
+{
+    color:#888888;
+    letter-spacing:2px;
+    }
+.ToPage
+{
+    width:136px;
+    height:22px;
+    }
+.ToPs
+{
+    width:90px;
+    height:22px;
+    }
+.ToPs span
+{
+    letter-spacing:2px;
+    color:#888;
+    }
+.ToPs span input
+{
+    color:#888;
+    width:27px;
+    height:20px;
+    border:1px solid #dcdcdc;
+    background:#fff;
+    text-align:center;
+    }
+.Sub
+{
+    width:46px;
+    height:22px;
+    }
+.Sub input
+{
+    width:44px;
+    height:22px;
+    border:1px solid #dcdcdc;
+    cursor:pointer;
+    color:#666666;
+    line-height:10px;
+    background:#f7f7f7;
+    }

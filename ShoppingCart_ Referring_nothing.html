@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="关键词">
+	<meta name="description" content="描述">
+	<meta name="renderer" content="webkit">   <!--强制360浏览器为急速模式-->
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />  <!--按照IE8进行渲染-->
+    <title>购物车-未添加产品</title>
+	<link href="css/public/reset_pc.css" type="text/css" rel="stylesheet">  <!--初始化页面属性-->
+    <link rel="stylesheet" type="text/css" href="css/TopFoot/gg_style.css">   <!--头部和底部内容样式-->
+    <link href="css/ShoppingCart/shopCartReferring.css" type="text/css" rel="stylesheet"><!--购物车提交样式-->
+    <link href="css/public/animate.css" type="text/css" rel="stylesheet">  <!--css3动画效果-->
+
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/gg_js.js"></script>    <!--处理头部和导航部分动态效果-->
+    <script type="text/javascript" src="js/animate.js"></script>   <!--底部推荐部分鼠标滑过效果-->
+    <script type="text/javascript" src="js/JudgeBase.js"></script>   <!--产品块鼠标点击和滑过效果-->
+    <script type="text/javascript" src="js/xiaoguo.js"></script>   <!--表单选中处理-->
+    <script type="text/javascript" src="js/BrowserDetect.js"></script>  <!--浏览器检查插件-->
+	<script type="text/javascript">
+		if(BrowserDetect.browser == 'Internet Explorer' && BrowserDetect.version < 8){
+			alert('您的浏览器版本过低，请您更新浏览器以便更好的浏览本网站！');
+		}
+	</script>
+    <!--[if IE 6]>
+	    <script src="js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+	    <script type="text/javascript">
+	        DD_belatedPNG.fix('div, ul, img, li, input, a, b, span, em, h3, i, p');
+	    </script>
+	<![endif]--> 
+</head>
+<body style="background:#fff;">
+<div class="top">
+	     <div class="content" style="width:1000px;" >
+	                 <div class="top_left left">
+	                          <ul>
+	                                <li class="top_home"><a href="#" target="_blank"><i></i>地铁购首页</a> </li>
+	                                <li class="top_login_infor" style="background:none;">
+	                                      <div class="top_login" style="display:block;">您好，请<a class="color_red" href="#" target="_blank">登录</a>/<a class="color_red" href="#" target="_blank">注册</a>
+	                                      </div>
+	                                </li>
+	                          </ul>
+	                </div>
+	                <div class="top_right right">
+	                         <ul>
+	                                <li>
+                                        <div class="t_sel top_order">
+                                            <a class="sel" href="myOrder_index.html" target="_blank">我的订单 <i></i></a>
+                                            <div class="box">
+                                                <a href="myOrder_index.html" target="_blank">代付款</a>
+                                                <a href="myOrder_index.html" target="_blank">待发货</a>
+                                                <a href="myOrder_index.html" target="_blank">待评价</a>
+                                            </div>
+                                        </div>
+	                                </li>
+	                                <li>
+                                        <div class="t_sel top_collect">
+                                            <a class="sel" href="Collect_index.html" target="_blank"><b></b>收藏夹 <i></i></a>
+                                            <div class="box">
+                                                <a href="Collect_index.html" target="_blank">商品收藏</a>
+                                                <a href="Collect_index.html" target="_blank">店铺收藏</a>
+                                            </div>
+                                        </div>
+	                                </li>
+	                                <li>
+	                                        <div class="t_sel top_nav">
+	                                             <a class="sel"  href="#">网站导航<i></i></a>
+	                                             <div class="box">
+	                                                   <dl class="one">
+	                                                          <dt>主体市场</dt>
+	                                                          <dd>
+	                                                                <a href="#" target="_blank">地铁购商城</a>
+	                                                                <a href="#" target="_blank">地铁购商城</a>
+	                                                                <a href="#" target="_blank">宜生活</a>
+	                                                                <a href="#" target="_blank">食品</a>
+	                                                                <a href="#" target="_blank">进口海购</a>
+	                                                                <a href="#" target="_blank">数码</a>
+	                                                          </dd>
+	                                                   </dl>
+	                                                   <dl>
+	                                                            <dt>特色购物</dt>
+	                                                            <dd>
+	                                                                  <a href="#" target="_blank">团购</a>
+	                                                                  <a href="#" target="_blank">限时抢购</a>
+	                                                                  <a href="#" target="_blank">竞拍</a>
+	                                                            </dd>
+	                                                   </dl>
+	                                                   <dl class="no_bdr three">
+	                                                            <dt>当前热点</dt>
+	                                                            <dd>
+	                                                                  <a href="#" target="_blank">每日精选</a>
+	                                                                  <a href="#" target="_blank">母婴专区<i class="icon_hot">H</i></a>
+	                                                            </dd>
+	                                                   </dl>
+	                                             </div>
+	                                        </div>
+	                                </li>
+	                                <li class="no_bg top_shop color_red">
+	                                        <a href="#" target="_blank"><i></i>购物车 <span>12</span></a>
+	                                </li>
+	                        </ul>
+	                </div>
+	                <div class="clear"></div>
+	      </div>
+         </div>	
+         
+<!--TOP END-->
+
+<div class="mar_c ShopCart">
+	<div class="mar_c ShopCartTop">
+		<div class="float_l ShopCartTopL"><img src="images/ShopCart/shopCartLogo.jpg" alt="地铁购"></div>
+		<div class="float_r ShopCartTopR">
+			<div class="mar_c TopRHuiB">
+				<div class="TopRLanB"></div>
+				<div class="ShopCartTopROne PosiO"><span class="mar_c Lan">1</span><h3>我的购物车</h3></div>
+				<div class="ShopCartTopROne PosiT"><span class="mar_c Hui">2</span><h3 class="NoSel">确认订单信息</h3></div>
+				<div class="ShopCartTopROne PosiTH"><span class="mar_c Hui">3</span><h3 class="NoSel">成功提交订单</h3></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="cl"></div>
+	<!--ShopCartTop END-->
+
+	<div class="ShopCartMain">
+		<form action="ShoppingCart_Confirm.html" name="Referring" id="Referring" method="get">
+			<div class="ShopCartMTop"><h2>我的购物车</h2></div>
+			<div class="ShopCartMTitle">
+				<div class="float_l AllSelect"></div>
+				<div class="float_l ProductName"><h4>商品名称</h4></div>
+				<div class="float_l ProductPrice"><h4>单价(元)</h4></div>
+				<div class="float_l CutPrice"><h4>优惠</h4></div>
+				<div class="float_l ProductMuch"><h4>数量</h4></div>
+				<div class="float_l Total"><h4>小计</h4></div>
+				<div class="float_l DoingIt"><h4>操作</h4></div>
+			</div>
+
+			<!--ShopCartMTitle END-->
+
+			<div class="ShopCartMList">
+                <div class="NothingOrder">
+                    <div class="mar_c NothingOrderM">
+                        <p>您的购物车空空的，去&nbsp;<a href="#" target="_blank">地铁购</a>&nbsp;逛逛吧！</p>
+                    </div>
+                </div>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="cl"></div>
+<!--ShopCart END-->
+
+<div class="mar_c Recommend">
+	<div class="RecommendT">
+		<div class="float_l RecommendTL"><h2>为您推荐</h2></div>
+		<div class="float_r LikeTitleRs"><a href="#" target="_blank" title="查看更多"><h4>查看更多</h4><b></b></a></div>
+	</div>
+	<div class="RecommendM">
+		<div class="float_l RecommendMOne RecommendMOneBlur RecommendMOneR">
+			<a href="#" target="_blank" title="微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰"><img src="images/publicPic/Order_product.jpg" alt="产品图"></a>
+			<div class="RecommendMOneP">
+				<h2>￥3597.00</h2>
+				<del>¥4197.00</del>
+			</div>
+			<div class="RecommondMOneTit"><a href="#" target="_blank" title="微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰"><h3>微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰</h3></a></div>
+		</div>
+
+
+		<div class="float_l RecommendMOne RecommendMOneBlur RecommendMOneR">
+			<a href="#" target="_blank" title="微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰"><img src="images/publicPic/Order_product.jpg" alt="产品图"></a>
+			<div class="RecommendMOneP">
+				<h2>￥3597.00</h2>
+				<del>¥4197.00</del>
+			</div>
+			<div class="RecommondMOneTit"><a href="#" target="_blank" title="微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰"><h3>微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰</h3></a></div>
+		</div>
+
+
+		<div class="float_l RecommendMOne RecommendMOneBlur RecommendMOneR">
+			<a href="#" target="_blank" title="微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰"><img src="images/publicPic/Order_product.jpg" alt="产品图"></a>
+			<div class="RecommendMOneP">
+				<h2>￥3597.00</h2>
+				<del>¥4197.00</del>
+			</div>
+			<div class="RecommondMOneTit"><a href="#" target="_blank" title="微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰"><h3>微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰</h3></a></div>
+		</div>
+
+
+		<div class="float_l RecommendMOne RecommendMOneBlur">
+			<a href="#" target="_blank" title="微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰"><img src="images/publicPic/Order_product.jpg" alt="产品图"></a>
+			<div class="RecommendMOneP">
+				<h2>￥3597.00</h2>
+				<del>¥4197.00</del>
+			</div>
+			<div class="RecommondMOneTit"><a href="#" target="_blank" title="微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰"><h3>微鲸 WTV55K1 55吋4K高清智能旗舰能旗舰能旗舰</h3></a></div>
+		</div>
+		<div class="cl"></div>
+	</div>
+</div>
+
+<!--Recommend END-->
+
+<div id="footer" class="mt20">
+            <div class="footer_nav">
+                <div class="content">
+                       <ul>
+                              <li class="one">
+                                      <p class="title"><a>关于我们</a> </p>
+                                      <p><a href="#" target="_blank">地铁购介绍</a></p>
+                                      <p><a href="#" target="_blank">人才招聘</a></p>
+                                      <p><a href="#" target="_blank">联系我们</a></p>
+                                      <p><a href="#" target="_blank">关于地铁购</a></p>
+                                      <p><a href="#" target="_blank">地铁购快讯</a></p>
+                              </li>
+                              <li class="two">
+                                      <p class="title"><a> 新手指南</a></p>
+                                      <p><a href="#" target="_blank">会员注册</a></p>
+                                      <p><a href="#" target="_blank">购物流程</a></p>
+                                      <p><a href="#" target="_blank">买家拍卖指南</a></p>
+                              </li>
+                              <li class="three">
+                                      <p class="title"><a>支付/配送</a></p>
+                                      <p><a href="#" target="_blank">商品验货与签收</a></p>
+                                      <p><a href="#" target="_blank">配送时间与范围</a></p>
+                                      <p><a href="#" target="_blank">支付常见问题</a></p>
+                                      <p><a href="#" target="_blank">网上支付</a></p>
+                              </li>
+                              <li class="four">
+                                      <p class="title"><a>售后服务</a></p>
+                                      <p><a href="#" target="_blank">退换货政策</a></p>
+                              </li>
+                              <li class="five" style="margin-right: 0px;">
+                                      <p class="title"><a>帮助信息</a></p>
+                                      <p><a href="#" target="_blank">秒杀规则</a></p>
+                                      <p><a href="#" target="_blank">常见问题</a></p>
+                                      <p><a href="#" target="_blank">找回密码</a></p>
+                              </li>
+                              <div class="clear"></div>
+                       </ul>
+                </div>
+            </div>
+            <div class="footer_main">
+                   <div class="content">
+                        <ul>
+                                <li class="online">
+                                    <div >
+                                            <h3>在线客服</h3>
+                                            <p>工作时间：周一至周日8:30-18:00</p>
+                                            <a href="#"><img src="images/TopFoot/lx_btn.png"></a>
+                                    </div>
+                                </li>
+                                <li class="tele">
+                                    <div>
+                                            <h3>电话服务</h3>
+                                            <p class="tele_number">4006-882-553</p>
+                                            <p class="qianl">24小时贴心服务</p>
+                                   </div>
+                                </li>
+                                <li class="wechat">
+                                    <div class="wx">
+                                            <h3>微信咨询</h3>
+                                            <p>扫描加地铁购小主微信号</p>
+                                            <p class="qianl">扫一扫，有惊喜哦！</p>
+                                    </div>
+                                </li>
+                                <div class="clear"></div>
+                        </ul>
+                   </div>
+            </div>
+            <div class="foot_logo">
+                  <ul>
+                          <li><img src="images/TopFoot/logo1.jpg" alt="郑州晚报"></li>
+                          <li><img src="images/TopFoot/logo2.jpg" alt="中原地铁报"></li>
+                          <li><img src="images/TopFoot/logo3.jpg" alt="河南企汇网信息技术有限公司"></li>
+                          <li style="width:50px;"><a href="#"  rel="nofollow" target="_blank"><img src="images/TopFoot/zzgs_icon.jpg"  alt="河南企汇网信息技术有限公司"></a></li>
+                  </ul>
+            </div>
+                  <p class="copyright">版权所有2014-2015 河南企汇网信息技术有限公司 保留所有权利 <br />
+                  Copyright ©  2014 - 2015 dtgou.com.cn All Rights Reserved <a style="color:#666" href="#" target="_blank">豫B2-20140075</a></p>
+    </div>
+<!--footer END-->
+</body>
+</html>

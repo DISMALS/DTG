@@ -1,0 +1,249 @@
+﻿@charset "utf-8";
+
+/*
+    *制作软件：VS2015
+    *制作时间：2015-11-03
+    *作者：王勇
+    *用途：个人中心 > 投诉
+    *
+*/
+.ComplaintsTL{
+    width:70px;
+    height:50px;
+    font-size:16px;
+    font-weight:bold;
+    line-height:50px;
+}
+.ComplaintsTR{
+    padding-left:20px;
+    line-height:54px;
+}
+.RRListMsTop{
+    width:980px;
+     height:60px;
+     background:#f5f9fb;
+     margin-top:3px;
+}
+ .ComplaintsM{
+     width:600px;
+     height:60px;
+ }
+ .ComplaintsM li{
+     width:117px;
+     height:56px;
+     margin-top:4px;
+     line-height:56px;
+     float:left;
+     font-size:14px;
+     cursor:pointer;
+ }
+ .ComplaintsM li.NormalC{
+     background:#edf3f6;
+     color:#999;
+ }
+ .ComplaintsM li.ClickC{
+    background:#fff;
+    font-weight:bold;
+     color:#666;
+  }
+ .complaintsMm{
+     width:910px;
+     height:auto;
+     padding:40px 35px 70px 35px;
+     position:relative;
+ }
+
+
+
+ /*----------------ComplaintsM END-------------------*/
+
+
+ .complaintsMOne,complaintsMTwo{
+     width:910px;
+     height:auto;
+     position:relative;
+ }
+ .MOnePhon span{
+     width:70px;
+     height:32px;
+     line-height:32px;
+     font-size:14px;
+     margin-right:3px;
+ }
+ .MOnePhon input{
+     width:188px;
+     height:30px;
+     line-height:30px;
+     padding-left:10px;
+     color:#333;
+     font-family:SimSun;
+     font-size:12px;
+     margin-bottom:20px;
+ }
+ .BecouseM{
+     width:478px;
+     height:132px;
+     padding:10px 10px;
+     font-size:12px;
+     color:#333;
+     font-family:SimSun;
+     margin-bottom:30px;
+ }
+ .subMit{
+     width:130px;
+     height:40px;
+     line-height:38px;
+     color:#fff;
+     font-size:16px;
+     position:relative;
+     left:73px;
+     cursor:pointer;
+     background:url(../../images/refundment/Apply/ApplyBtn.png) no-repeat center;
+ }
+ .subMit:hover{
+    background:url(../../images/refundment/Apply/btnHover.png) no-repeat center;
+ }
+
+ /*------------------------complaintsMOne END-----------------------*/
+
+
+
+.CMTwoR{
+    width:910px;
+    height:auto;
+    position:relative;
+    z-index:2;
+}
+.CMTwoRTop{
+    width:910px;
+    height:60px;
+    line-height:60px;
+    margin-bottom:20px;
+}
+.CMTwoRTop h4{
+    font-size:14px;
+}
+.CMTwoRTop h4.TwoRTopTim{
+    width:107px;
+    height:60px;
+}
+.CMTwoRTop h4.TwoRTopM{
+    width:300px;
+    height:60px;
+    margin-left:50px;
+}
+.CMTwoRTop h4.TwoRTopP{
+    width:110px;
+    height:60px;
+    margin-left:50px;
+}
+.CMTwoRTop h4.TwoRTopT{
+    width:110px;
+    height:60px;
+    margin-left:34px;
+}
+.CMTwoRTop h4.TwoRTopD{
+    width:60px;
+    height:60px;
+    margin-left:70px;
+}
+.CMTwoRMOne{
+    width:910px;
+    height:auto;
+    overflow:hidden;
+    background:url(../../images/Collect_Evaluation_Complaints/Grays.png) no-repeat 99px top;
+}
+.CMTwoRMOne h3{
+    font-size:12px;
+}
+ .CMTwoRMOne span{
+    width:106px;
+    height:107px;
+    display:block;
+    line-height:20px;
+}
+.CMTwoRMOne span b{
+    display:block;
+    position:relative;
+    top:-6px;
+}
+.CMTwoRMOne a{
+    text-decoration:none;
+}
+.CMTwoRMOne h2{
+    width:300px;
+    min-height:60px;
+    font-size:12px;
+}
+.CMTwoRMOne h2.mainS{
+    display:block;
+    line-height:20px;
+    margin-left:50px;
+    padding-bottom:15px;
+    margin-top:-3px;
+}
+.CMTwoRMOne h2.mainS a{
+     min-width:50px;
+     height:20px;
+     line-height:20px;
+     display:inline-block;
+     color:#2e78d3;
+     font-family:SimSun;
+     margin-left:15px;
+ }
+.Phon{
+    width:110px;
+    height:60px;
+    margin-left:50px;
+}
+.Togo{
+    width:110px;
+    height:60px;
+    margin-left:34px;
+}
+.TogoColor{
+    color:#65ac3d;
+}
+.Rem{
+    width:60px;
+    height:60px;
+    margin-left:70px;
+}
+.positionM{
+    position:relative;
+    top:-5px;
+}
+
+
+
+.CollSearch{
+    width:242px;
+    height:28px;
+    margin-top:12px;
+    margin-right:20px;
+}
+.CollSearchL{
+    width:12px;
+    height:28px;
+}
+.CollSearchM{
+    width:218px;
+    height:26px;
+    background:#fff;
+}
+.CollSearchM input{
+    width:189px;
+    height:26px;
+    line-height:26px;
+    font-size:12px;
+    color:#333;
+}
+.CollSearchM span{
+    width:28px;
+    height:26px;
+    display:block;
+    cursor:pointer;
+    background:url(../../images/Collect_Evaluation_Complaints/SailerPic.png) no-repeat 9px -112px ;
+}
+
+  /*------------------------complaintsMTwo END-----------------------*/

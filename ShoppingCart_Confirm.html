@@ -1,0 +1,526 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="关键词" />
+    <meta name="description" content="描述" />
+    <meta name="renderer" content="webkit" />   <!--强制360浏览器为急速模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />  <!--按照IE8进行渲染-->
+    <title>购物车-确认</title>
+    <link href="css/public/reset_pc.css" type="text/css" rel="stylesheet" />  <!--初始化页面属性-->
+    <link rel="stylesheet" type="text/css" href="css/TopFoot/gg_style.css" />   <!--头部和底部内容样式-->
+    <link href="css/ShoppingCart/ShopCartPreserve.css" type="text/css" rel="stylesheet" />
+    <link href="css/ShoppingCart/ShopCartConfirm.css" type="text/css" rel="stylesheet" />  <!--购物车确认页面-->
+    
+    <link href="css/myOrder/popUp.css" type="text/css" rel="stylesheet" />
+    <link href="css/public/common.css" type="text/css" rel="stylesheet">    <!--除首页外的公共样式-->
+
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/gg_js.js"></script>    <!--处理头部和导航部分动态效果-->
+    <script type="text/javascript" src="js/animate.js"></script>      <!--页面主内容鼠标滑过效果-->
+    <script type="text/javascript" src="js/JudgeBase.js"></script>      <!--弹窗下拉效果-->
+    <script type="text/javascript" src="js/BrowserDetect.js"></script>  <!--浏览器检查插件-->
+    <script type="text/javascript">
+		if(BrowserDetect.browser == 'Internet Explorer' && BrowserDetect.version < 8){
+			alert('您的浏览器版本过低，请您更新浏览器以便更好的浏览本网站！');
+		}
+    </script>
+    <!--[if IE 6]>
+        <script src="js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            DD_belatedPNG.fix('div, ul, img, li, input, a, b, span, em, h3, i, p');
+        </script>
+    <![endif]-->
+</head>
+<body style="background:#fff;">
+    <form action="#" name="popUp" method="get">
+        <div class="top">
+            <div class="content" style="width:1000px;">
+                <div class="top_left left">
+                    <ul>
+                        <li class="top_home"><a href="#" target="_blank"><i></i>地铁购首页</a> </li>
+                        <li class="top_login_infor" style="background:none;">
+                            <div class="top_login" style="display:block;">
+                                您好，请<a class="color_red" href="#" target="_blank">登录</a>/<a class="color_red" href="#" target="_blank">注册</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top_right right">
+                    <ul>
+                        <li>
+                            <div class="t_sel top_order">
+                                <a class="sel" href="myOrder_index.html" target="_blank">我的订单 <i></i></a>
+                                <div class="box">
+                                    <a href="myOrder_index.html" target="_blank">代付款</a>
+                                    <a href="myOrder_index.html" target="_blank">待发货</a>
+                                    <a href="myOrder_index.html" target="_blank">待评价</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="t_sel top_collect">
+                                <a class="sel" href="Collect_index.html" target="_blank"><b></b>收藏夹 <i></i></a>
+                                <div class="box">
+                                    <a href="Collect_index.html" target="_blank">商品收藏</a>
+                                    <a href="Collect_index.html" target="_blank">店铺收藏</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="t_sel top_nav">
+                                <a class="sel" href="#">网站导航<i></i></a>
+                                <div class="box">
+                                    <dl class="one">
+                                        <dt>主体市场</dt>
+                                        <dd>
+                                            <a href="#" target="_blank">地铁购商城</a>
+                                            <a href="#" target="_blank">地铁购商城</a>
+                                            <a href="#" target="_blank">宜生活</a>
+                                            <a href="#" target="_blank">食品</a>
+                                            <a href="#" target="_blank">进口海购</a>
+                                            <a href="#" target="_blank">数码</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>特色购物</dt>
+                                        <dd>
+                                            <a href="#" target="_blank">团购</a>
+                                            <a href="#" target="_blank">限时抢购</a>
+                                            <a href="#" target="_blank">竞拍</a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="no_bdr three">
+                                        <dt>当前热点</dt>
+                                        <dd>
+                                            <a href="#" target="_blank">每日精选</a>
+                                            <a href="#" target="_blank">母婴专区<i class="icon_hot">H</i></a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="no_bg top_shop color_red">
+                            <a href="#" target="_blank"><i></i>购物车 <span>12</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!--TOP END-->
+
+        <div class="mar_c ShopCart">
+
+            <div class="mar_c ShopCartTop">
+                <div class="float_l ShopCartTopL"><img src="images/ShopCart/shopCartLogo.jpg" alt="地铁购" /></div>
+                <div class="float_r ShopCartTopR">
+                    <div class="mar_c TopRHuiB">
+                        <div class="TopRLanB widTH"></div>
+                        <div class="ShopCartTopROne PosiO"><span class="mar_c SeccesPic"></span><h3>我的购物车</h3></div>
+                        <div class="ShopCartTopROne PosiT"><span class="mar_c Lan">2</span><h3>确认订单信息</h3></div>
+                        <div class="ShopCartTopROne PosiTH"><span class="mar_c Hui">3</span><h3 class="NoSel">成功提交订单</h3></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cl"></div>
+            <!--ShopCartTop END-->
+
+            <div class="SureAddress">
+                <div class="ConfirmTitle">
+                    <h2>确认收货人信息<a href="ShoppingCart_Preserve.html" target="_blank">管理收货地址</a></h2>
+                </div>
+
+                <div class="ConfirmAddress">
+                    <div class="float_l AddressOne AddressOneA">
+                        <div class="AddressOneT">
+                            <h4 class="float_l">小明</h4>
+                            <a class="float_r gre"></a>
+                        </div>
+                        <div class="AddressOneM">
+                            <p class="map">河南省郑州市中原区河南省电子商务产业园三号楼2层企汇网</p>
+                            <p class="phon">13838381438</p>
+                        </div>
+                        <div class="AddressOneBss">
+                            <span class="float_l" style="display:none;"><a class="empty" href="#">删除</a>&nbsp;|&nbsp;<a href="ShoppingCart_Preserve.html">修改</a></span>
+                            <em class="float_r no">默认地址</em>
+                        </div>
+                    </div>
+
+                    <!--默认收货地址结束-->
+
+                    <div class="float_l AddressOne AddressOneBs">
+                        <div class="AddressOneT">
+                            <h4 class="float_l">小明</h4>
+                            <a class="float_r gra"></a>
+                        </div>
+                        <div class="AddressOneM">
+                            <p class="maps">河南省郑州市中原区河南省电子商务产业园三号楼2层企汇网</p>
+                            <p class="phons">13838381438</p>
+                        </div>
+                        <div class="AddressOneBss">
+                            <span class="float_l" style="display:none;"><a class="empty" href="#">删除</a>&nbsp;|&nbsp;<a href="ShoppingCart_Preserve.html">修改</a></span>
+                            <em class="float_r yes" style="display:none;">默认地址</em>
+                        </div>
+                    </div>
+
+                    <!--收货地址二结束-->
+
+                    <div class="float_l addAddress AddressOneC">
+                        <span>
+                            <img src="images/ShopCart/UpPic.png" /> <br />
+                            <em>添加新地址</em>
+                        </span>
+                    </div>
+                    <!--添加新地址结束-->
+                    <div class="cl"></div>
+                </div>
+                <!--添加地址结束-->
+
+                <div class="SendTime">
+                    <div class="float_l SendTimeL"><h2 class="mar_c">配送时间</h2></div>
+                    <div class="float_l SendTimeR">
+                        <a class="float_l">
+                            <div class="SendTimeRM">
+                                <div class="float_l SendTimeRML"></div>
+                                <div class="float_l SendTimeRMC text_c borD SendTimeRMCW"><span class="">仅工作日配送</span></div>
+                                <div class="float_l SendTimeRMR"></div>
+                            </div>
+                        </a>
+                        <div class="fl float_l"></div>
+                        <a class="float_l">
+                            <div class="SendTimeRM">
+                                <div class="float_l SendTimeRMLs"></div>
+                                <div class="float_l SendTimeRMC text_c borDN SendTimeRMCW"><span class="SendTimeRMCW">仅周末配送</span></div>
+                                <div class="float_l SendTimeRMRs"></div>
+                            </div>
+                        </a>
+                        <div class="fl float_l"></div>
+                        <a class="float_l">
+                            <div class="SendTimeRM SendTimeRMSL">
+                                <div class="float_l SendTimeRMLs"></div>
+                                <div class="float_l SendTimeRMC text_c borDN SendTimeRMCL"><span class="">周末/工作日/假日均可</span></div>
+                                <div class="float_l SendTimeRMRs"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="kouPic positionF"></div>
+                    <div class="kouPics positionP"></div>
+                </div>
+                <!--配送时间结束-->
+
+
+
+            </div>
+
+            <div class="cl"></div>
+            <!--确认收货人信息结束-->
+
+            <div class="OrderImformation">
+                <div class="OrderImformationT"><h2>确认订单信息</h2></div>
+                <div class="mar_c OrderImformationM">
+                    <div class="OrderImformationMT">
+                        <div class="float_l proName text_c"><h3>商品名称</h3></div>
+                        <div class="float_l proPri text_c"><h3>单价（元）</h3></div>
+                        <div class="float_l proMuch text_c"><h3>数量</h3></div>
+                        <div class="float_l proCut text_c"><h3>优惠</h3></div>
+                        <div class="float_l proTotal text_r"><h3>小计</h3></div>
+                    </div>
+
+                    <div class="cl"></div>
+                    <!--OrderImformationMT END-->
+
+                    <div class="ImformationMOne">
+                        <div class="ImformationMOneT"><h4>店铺：地铁购自营店</h4></div>
+                        <div class="mar_c ImformationMOneM">
+                            <div class="MOneMPro">
+                                <a href="#" target="_blank" title="小米手机4c高配版全网通移动联通4G手机"><img class="float_l" src="images/publicPic/gwcPic.jpg" alt="产品图" /></a>
+                                <div class="float_l MOneMProT MOneMProDiv">
+                                    <a href="#" target="_blank" title="小米手机4c高配版全网通移动联通4G手机"><h3>小米手机4c高配版全网通移动联通4G手机</h3></a>
+                                    <h5>内存：32G&nbsp;颜色：金属灰</h5>
+                                </div>
+                                <div class="float_l MOneMProP text_c MOneMProDiv"><em>￥1599</em></div>
+                                <div class="float_l MOneMProM text_c MOneMProDiv"><em>x&nbsp;1</em></div>
+                                <div class="float_l MOneMProC text_c MOneMProDiv"><em>无</em></div>
+                                <div class="float_l MOneMProTO text_r MOneMProDiv"><em>￥1599</em></div>
+                                <div class="cl"></div>
+                            </div>
+
+
+                            <div class="MOneMPro">
+                                <a href="#" target="_blank" title="小米手机4c高配版全网通移动联通4G手机"><img class="float_l" src="images/publicPic/gwcPic.jpg" alt="产品图" /></a>
+                                <div class="float_l MOneMProT MOneMProDiv">
+                                    <a href="#" target="_blank" title="小米手机4c高配版全网通移动联通4G手机"><h3>小米手机4c高配版全网通移动联通4G手机</h3></a>
+                                    <h5>内存：32G&nbsp;颜色：金属灰</h5>
+                                </div>
+                                <div class="float_l MOneMProP text_c MOneMProDiv"><em>￥1599</em></div>
+                                <div class="float_l MOneMProM text_c MOneMProDiv"><em>x&nbsp;1</em></div>
+                                <div class="float_l MOneMProC text_c MOneMProDiv"><em>无</em></div>
+                                <div class="float_l MOneMProTO text_r MOneMProDiv"><em>￥1599</em></div>
+                                <div class="cl"></div>
+                            </div>
+                            <div class="cl"></div>
+                            <!--单个产品层结束-->
+
+                            <div class="giveTalk">
+                                <div class="float_l giveTalkL">
+                                    <span class="float_l">给商家留言</span>
+                                    <textarea onpause="false" class="float_l hei" id="contentText" cols="40"></textarea>
+                                </div>
+                                <div class="float_r giveTalkR text_r">
+                                    <p>运费：&nbsp;&nbsp;&nbsp;<i>￥5.00</i></p>
+                                    <p>合计(含运费)：&nbsp;<i>￥58.00</i></p>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--ImformationMOne END-->
+
+                    <div class="ImformationMOne">
+                        <div class="ImformationMOneT"><h4>店铺：地铁购自营店</h4></div>
+                        <div class="mar_c ImformationMOneM">
+                            <div class="MOneMPro">
+                                <a href="#" target="_blank" title="小米手机4c高配版全网通移动联通4G手机"><img class="float_l" src="images/publicPic/gwcPic.jpg" alt="产品图" /></a>
+                                <div class="float_l MOneMProT MOneMProDiv">
+                                    <a href="#" target="_blank" title="小米手机4c高配版全网通移动联通4G手机"><h3>小米手机4c高配版全网通移动联通4G手机</h3></a>
+                                    <h5>内存：32G&nbsp;颜色：金属灰</h5>
+                                </div>
+                                <div class="float_l MOneMProP text_c MOneMProDiv"><em>￥1599</em></div>
+                                <div class="float_l MOneMProM text_c MOneMProDiv"><em>x&nbsp;1</em></div>
+                                <div class="float_l MOneMProC text_c MOneMProDiv"><em>无</em></div>
+                                <div class="float_l MOneMProTO text_r MOneMProDiv"><em>￥1599</em></div>
+                                <div class="cl"></div>
+                            </div>
+
+
+                            <div class="MOneMPro">
+                                <a href="#" target="_blank" title="小米手机4c高配版全网通移动联通4G手机"><img class="float_l" src="images/publicPic/gwcPic.jpg" alt="产品图" /></a>
+                                <div class="float_l MOneMProT MOneMProDiv">
+                                    <a href="#" target="_blank" title="小米手机4c高配版全网通移动联通4G手机"><h3>小米手机4c高配版全网通移动联通4G手机</h3></a>
+                                    <h5>内存：32G&nbsp;颜色：金属灰</h5>
+                                </div>
+                                <div class="float_l MOneMProP text_c MOneMProDiv"><em>￥1599</em></div>
+                                <div class="float_l MOneMProM text_c MOneMProDiv"><em>x&nbsp;1</em></div>
+                                <div class="float_l MOneMProC text_c MOneMProDiv"><em>无</em></div>
+                                <div class="float_l MOneMProTO text_r MOneMProDiv"><em>￥1599</em></div>
+                                <div class="cl"></div>
+                            </div>
+                            <div class="cl"></div>
+                            <!--单个产品层结束-->
+
+                            <div class="giveTalk">
+                                <div class="float_l giveTalkL">
+                                    <span class="float_l">给商家留言</span>
+                                    <textarea onpause="false" class="float_l hei" id="contentText" cols="40"></textarea>
+                                </div>
+                                <div class="float_r giveTalkR text_r">
+                                    <p>运费：&nbsp;&nbsp;&nbsp;<i>￥5.00</i></p>
+                                    <p>合计(含运费)：&nbsp;<i>￥58.00</i></p>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--ImformationMTwo END-->
+
+                </div>
+                <div class="MListBT" style="border-bottom:none; border-left:none;">
+                    <input type="submit" name="tijiaodd" class="Bs" value="提交订单" />  <!--当可以提交时按钮的样式是class="Bs"-->
+                    <span>总金额：&nbsp;<i>¥4797.00</i></span>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="cl"></div>
+        <!--ShopCart END-->
+
+        <div id="footer" class="mt20">
+            <div class="footer_nav">
+                <div class="content">
+                    <ul>
+                        <li class="one">
+                            <p class="title"><a>关于我们</a> </p>
+                            <p><a href="#" target="_blank">地铁购介绍</a></p>
+                            <p><a href="#" target="_blank">人才招聘</a></p>
+                            <p><a href="#" target="_blank">联系我们</a></p>
+                            <p><a href="#" target="_blank">关于地铁购</a></p>
+                            <p><a href="#" target="_blank">地铁购快讯</a></p>
+                        </li>
+                        <li class="two">
+                            <p class="title"><a> 新手指南</a></p>
+                            <p><a href="#" target="_blank">会员注册</a></p>
+                            <p><a href="#" target="_blank">购物流程</a></p>
+                            <p><a href="#" target="_blank">买家拍卖指南</a></p>
+                        </li>
+                        <li class="three">
+                            <p class="title"><a>支付/配送</a></p>
+                            <p><a href="#" target="_blank">商品验货与签收</a></p>
+                            <p><a href="#" target="_blank">配送时间与范围</a></p>
+                            <p><a href="#" target="_blank">支付常见问题</a></p>
+                            <p><a href="#" target="_blank">网上支付</a></p>
+                        </li>
+                        <li class="four">
+                            <p class="title"><a>售后服务</a></p>
+                            <p><a href="#" target="_blank">退换货政策</a></p>
+                        </li>
+                        <li class="five" style="margin-right: 0px;">
+                            <p class="title"><a>帮助信息</a></p>
+                            <p><a href="#" target="_blank">秒杀规则</a></p>
+                            <p><a href="#" target="_blank">常见问题</a></p>
+                            <p><a href="#" target="_blank">找回密码</a></p>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_main">
+                <div class="content">
+                    <ul>
+                        <li class="online">
+                            <div>
+                                <h3>在线客服</h3>
+                                <p>工作时间：周一至周日8:30-18:00</p>
+                                <a href="#"><img src="images/TopFoot/lx_btn.png" /></a>
+                            </div>
+                        </li>
+                        <li class="tele">
+                            <div>
+                                <h3>电话服务</h3>
+                                <p class="tele_number">4006-882-553</p>
+                                <p class="qianl">24小时贴心服务</p>
+                            </div>
+                        </li>
+                        <li class="wechat">
+                            <div class="wx">
+                                <h3>微信咨询</h3>
+                                <p>扫描加地铁购小主微信号</p>
+                                <p class="qianl">扫一扫，有惊喜哦！</p>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot_logo">
+                <ul>
+                    <li><img src="images/TopFoot/logo1.jpg" alt="郑州晚报" /></li>
+                    <li><img src="images/TopFoot/logo2.jpg" alt="中原地铁报" /></li>
+                    <li><img src="images/TopFoot/logo3.jpg" alt="河南企汇网信息技术有限公司" /></li>
+                    <li style="width:50px;"><a href="#" rel="nofollow" target="_blank"><img src="images/TopFoot/zzgs_icon.jpg" alt="河南企汇网信息技术有限公司"></a></li>
+                </ul>
+            </div>
+            <p class="copyright">
+                版权所有2014-2015 河南企汇网信息技术有限公司 保留所有权利 <br />
+                Copyright ©  2014 - 2015 dtgou.com.cn All Rights Reserved <a style="color:#666" href="#" target="_blank">豫B2-20140075</a>
+            </p>
+        </div>
+        <!--footer END-->
+        <!--以下是弹窗添加新地址-->
+        <div class="allPop">
+            <div class="addAddresPop">
+                <div class="AddresPopL float_l"></div>
+                <div class="AddresPopC float_l">
+                    <h3 class="popTitle colorTwo float_l"></h3>
+                    <a class='AddresPopClose float_r'></a>
+                    <div class="cl"></div>
+                    <div class="PreserveMBd dis_n PreserveMA">
+                        <div class="PreserveMBdO marBSt PreserveMAo">
+                            <span class="PreserveMBdSpa dis_b colorTwo float_l"><i>*</i>&nbsp;所在地区：</span>
+                            <div class="MBdOm float_l posiLeftO">
+                                <div class="float_l pj" id="xialaMenuOnes">
+                                    <input id="pjTextOnes" type="text" placeholder="请选择" />
+                                    <em class="solid_b_btn"></em>
+                                </div>
+                                <div class="pjMationOne" style="display:none;">
+                                    <a>河南省</a>
+                                    <a>河北省</a>
+                                </div>
+                            </div>
+                            <div class="MBdOm float_l posiLeftT">
+                                <div class="float_l pj" id="xialaMenuTwos">
+                                    <input id="pjTextTwos" type="text" placeholder="请选择" />
+                                    <em class="solid_b_btn"></em>
+                                </div>
+                                <div class="pjMationTwo" style="display:none;">
+                                    <a>郑州市</a>
+                                    <a>武汉市</a>
+                                </div>
+                            </div>
+                            <div class="MBdOm float_l posiLeftTH">
+                                <div class="float_l pj" id="xialaMenuThrees">
+                                    <input id="pjTextThrees" type="text" placeholder="请选择" />
+                                    <em class="solid_b_btn"></em>
+                                </div>
+                                <div class="pjMationThree" style="display:none;">
+                                    <a>金水区</a>
+                                    <a>长江大桥</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cl"></div>
+                        <!--PreserveMBdO END-->
+
+                        <div class="PreserveMBdT marBSt">
+                            <span class="PreserveMBdSpa dis_b colorTwo float_l"><i>*</i>&nbsp;详细地址：</span>
+                            <textarea class="PreserveMBdTAdd float_l borM fontF" placeholder="请输入您所在的街区"></textarea>
+                        </div>
+
+                        <div class="cl"></div>
+                        <!--PreserveMBdT END-->
+
+                        <div class="PreserveMBdYZ marBSt">
+                            <span class="PreserveMBdSpa dis_b colorTwo float_l"><i>*</i>&nbsp;邮编：</span>
+                            <input class="float_l borM fontF" type="text" name="yozheng" />
+                            <p class="rang fontF float_l">请填写邮箱</p>
+                        </div>
+
+                        <div class="cl"></div>
+                        <!--PreserveMBdYZ END-->
+
+                        <div class="BdConsignee marBSt">
+                            <span class="PreserveMBdSpa dis_b colorTwo float_l"><i>*</i>&nbsp;收货人：</span>
+                            <input class="float_l borM fontF" type="text" name="Consignee" />
+                            <p class="allright fontF float_l">填写正确</p>
+                        </div>
+
+                        <div class="cl"></div>
+                        <!--BdConsignee END-->
+
+                        <div class="BdPhon marBSt">
+                            <span class="PreserveMBdSpa dis_b colorTwo float_l"><i>*</i>&nbsp;手机：</span>
+                            <input class="float_l borM fontF" type="text" name="Phon" />
+                        </div>
+
+                        <div class="cl"></div>
+                        <!--BdPhon END-->
+
+                        <div class="BdSub text_c"><input type="submit" value="保存" /></div>
+
+                    </div>
+
+                    <!--添加新地址-->
+
+                    <div class="emptyImfomation mar_c dis_n">
+                        <h4 class="mar_c">您确认要删除该收货地址么？</h4>
+                        <input class="sureEM" type="button" name="sureEmpty" value="确定删除" />
+                        <input class="noEM" type="button" name="noEmpty" value="暂不删除" />
+                    </div>
+
+                    <div class="cl"></div>
+                    <!--PreserveMBd END-->
+                </div>
+                <div class="AddresPopR float_l"></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

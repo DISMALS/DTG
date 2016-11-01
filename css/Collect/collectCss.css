@@ -1,0 +1,563 @@
+﻿@charset "utf-8";
+
+/*
+    *制作软件：VS2015
+    *制作时间：2015-11-02
+    *作者：王勇
+    *用途：个人中心 > 收藏
+    *
+*/
+
+
+.CollectT{
+    width:980px;
+    height:52px;
+    border-bottom:2px solid #f9f9f9;
+}
+.CollectT ul{
+    width:220px;
+    height:52px;
+}
+.CollectT ul li{
+    width:110px;
+    height:52px;
+    line-height:60px;
+    font-size:16px;
+    float:left;
+    cursor:pointer;
+}
+.CollectT ul li span{
+    width:110px;
+    height:52px;
+    display:block;
+}
+.CollectT ul li.Normal{
+    color:#666;
+}
+.CollectT ul li.Click{
+    color:#ff5656;
+    text-decoration:none;
+    border-bottom:3px solid #ff5656;
+}
+.CollectT ul li span:hover{
+    color:#ff5656;
+    text-decoration:none;
+    border-bottom:3px solid #ff5656;
+}
+.CollSearch{
+    width:242px;
+    height:28px;
+    margin-top:12px;
+    margin-right:20px;
+}
+.CollSearchL{
+    width:12px;
+    height:28px;
+}
+.CollSearchM{
+    width:218px;
+    height:26px;
+}
+.CollSearchM input{
+    width:189px;
+    height:26px;
+    line-height:26px;
+    font-size:12px;
+    color:#333;
+}
+.CollSearchM span{
+    width:28px;
+    height:26px;
+    cursor:pointer;
+    background:url(../../images/Collect_Evaluation_Complaints/SailerPic.png) no-repeat 9px -112px;
+}
+
+
+/*---------------------CollectT END----------------*/
+
+
+.CollectM{
+    width:960px;
+    height:auto;
+    padding:0px 10px;
+    position:relative;
+}
+.CollectOneM{
+    width:960px;
+    height:auto;
+    position:relative; 
+}
+.CollectMBorB{
+    width:936px;
+    height:auto;
+    border-bottom:2px solid #f9f9f9;
+}
+.CollectOne{
+    width:216px;
+    height:auto;
+    margin:0px 12px 25px;
+    _margin:0px 10px 25px;
+    position:relative;
+
+}
+.CollectOneT{
+    width:216px;
+    height:7px;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectProBTop.png) no-repeat center;
+}
+.CollectOneMm{
+    width:208px;
+    height:auto;
+    padding:0px 4px 10px 4px;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectProBC.png) repeat-y top center;
+}
+.CollectOneMm a{
+    text-decoration:none;
+}
+.CollectOneMm img{
+    width:208px;
+    height:208px;
+    margin-top:-3px;
+}
+.CollectOneMm h3{
+    width:188px;
+    height:20px;
+    padding:0px 10px;
+    line-height:20px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size:12px;
+}
+.CollectOne:hover .CollectOneMm h3{
+    color:#ff5656;
+} 
+.CollectOneMm h4{
+    width:188px;
+    height:20px;
+    line-height:20px;
+    padding:0px 10px;
+}
+
+
+/*-------------------CollectOneT END------------------*/
+
+
+.CollectB{
+    width:216px;
+    height:39px;
+}
+.CollectBGL{
+    width:7px;
+    height:39px;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectMGBL.png) no-repeat center;
+}
+.CollectBR{
+    width:7px;
+    height:39px;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectMGBR.png) no-repeat center;
+}
+.CollectBGC{
+    width:202px;
+    height:39px;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectMGBC.png) repeat-x center;
+}
+.CollectBGC em{
+    line-height:36px;
+    font-size:14px;
+    padding-left:5px;
+    font-weight:bold;
+    color:#ff5656;
+}
+.CollectBGC a.CollBtn{
+    min-width:70px;
+    height:36px;
+    display:block;
+    color:#999;
+    line-height:36px;
+    text-decoration:none;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectCutG.png) no-repeat left center;
+}
+
+
+/*-------------------CollectB END------------------*/
+
+
+
+/*-------------------一下是鼠标滑过变换样式--------------------*/
+
+.CollectOne b{
+    width:61px;
+    height:31px;
+    position:absolute;
+    top:12px;
+    right:-4px;
+    z-index:2;
+    cursor:pointer;
+}
+.CollectOne b.Gray{
+    background:url(../../images/Collect_Evaluation_Complaints/CollectUnavailable.png) no-repeat center;
+}
+.CollectOne b.Green{
+    background:url(../../images/Collect_Evaluation_Complaints/CollectAvailable.png) no-repeat center;
+}
+.CollectBGreL{
+    width:7px;
+    height:39px;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectMGreBL.png) no-repeat center;
+}
+.CollectBGreR{
+    width:7px;
+    height:39px;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectMGreBR.png) no-repeat center;
+}
+.CollectBGreC{
+    width:202px;
+    height:39px;
+    color:#fff;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectMGreBC.png) repeat-x center;
+}
+.CollectBGreC em{
+    line-height:36px;
+    font-size:14px;
+    padding-left:5px;
+    font-weight:bold;
+    
+}
+.CollectBGreC  a.CollBtn{
+    min-width:70px;
+    height:36px;
+    display:block;
+    line-height:36px;
+    color:#fff;
+    text-decoration:none;
+    background:url(../../images/Collect_Evaluation_Complaints/CollectMGreCut.png) no-repeat left center;
+}
+.CollectBGreC a.Dele{
+    width:36px;
+    height:36px;
+    display:block;
+    line-height:36px;
+    margin-right:8px;
+    color:#fff;
+    font-family:SimSun;
+}
+.CollectBGreC a.Dele:hover,.CollectBGreC  a.CollBtn:hover{
+    text-decoration:underline;
+}
+
+/*-------------------以上是鼠标滑过变换样式--------------------*/
+
+
+.CollectTwoM{
+    width:960px;
+    height:auto;
+    position:relative;
+    z-index:1;
+}
+.CollectTwoMS{
+    width:946px;
+    height:auto;
+    position:relative;
+    z-index:1;
+}
+.SailerOne{
+    width:918px;
+    height:268px;
+    display:block;
+    padding:0px 14px;
+    position:relative;
+    z-index:20;
+    margin-bottom:15px;
+}
+.SailerOneBJGra{
+    background:url(../../images/Collect_Evaluation_Complaints/SailerGra.jpg) no-repeat left center;
+}
+.SailerOneBJGre{
+    background:url(../../images/Collect_Evaluation_Complaints/SailerGre.jpg) no-repeat left center;
+}
+.SailerOneL{
+    width:248px;
+    height:264px;
+    position:relative;
+    z-index:3;
+}
+.SailerOneL h2{
+    width:160px;
+    height:40px;
+    margin:0px auto;
+    font-weight:bold;
+    line-height:20px;
+    font-size:12px;
+}
+.SailerOneL img{
+    width:130px;
+    height:130px;
+    display:block;
+    margin-top:46px;
+}
+.SailerY{
+    width:21px;
+    height:22px;
+    background:url(../../images/Collect_Evaluation_Complaints/SailerPic.png) no-repeat 0px -2px;
+    position:absolute;
+    top:37px;
+    right:-11px;
+    z-index:4;
+}
+.IconPic{
+    width:32px;
+    height:86px;
+    overflow:hidden;
+    position:absolute;
+    right:0px;
+    bottom:11px;
+    z-index:4;
+}
+.IconPic a{
+    width:32px;
+    height:22px;
+    display:block;
+}
+.IconPic a.ToTopGra{
+    position:relative;
+    top:0px;
+    right:-32px;
+    margin-bottom:5px;
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGra.png) no-repeat top center;
+}
+.IconPic a.ToTopGra:hover{
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGre.png) no-repeat top center;
+}
+.IconPic a.ToRemoveGra{
+    position:relative;
+    top:0px;
+    right:-32px;
+    margin-bottom:5px;
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGra.png) no-repeat 0px -27px;
+}
+.IconPic a.ToRemoveGra:hover{
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGre.png) no-repeat 0px -27px;
+}
+.IconPic a.ToRightGra{
+    position:relative;
+    top:0px;
+    right:-32px;
+    margin-bottom:5px;
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGra.png) no-repeat 0px -59px;
+}
+.IconPic a.ToRightGra:hover{
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGre.png) no-repeat 0px -59px;
+}
+.IconPic a.ToTopGre{
+    position:relative;
+    top:0px;
+    right:0px;
+    margin-bottom:5px;
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGre.png) no-repeat top center;
+}
+.IconPic a.ToRemoveGre{
+    position:relative;
+    top:0px;
+    right:0px;
+    margin-bottom:5px;
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGre.png) no-repeat 0px -27px;
+}
+.IconPic a.ToRightGre{
+    position:relative;
+    top:0px;
+    right:0px;
+    margin-bottom:5px;
+    background:#f3f3f3 url(../../images/Collect_Evaluation_Complaints/SailerIconGre.png) no-repeat 0px -59px;
+}
+
+
+
+
+
+
+
+/*-------------------SailerOneL END--------------------*/
+
+
+.SailerOneR{
+    width:669px;
+    height:232px;
+    margin-top:16px;
+    position:relative;
+    z-index:2;
+}
+.SailerOneRTop{
+    width:669px;
+    height:31px;
+    line-height:33px;
+}
+.SailerOneRTop h2{
+    width:85px;
+    height:31px;
+    font-size:14px;
+    font-weight:bold;
+}
+.SailerOneRTop em{
+    width:170px;
+    height:31px;
+    margin-left:20px;
+}
+.SailerOneRTop  a{
+    width:46px;
+    height:31px;
+    text-decoration:none;
+}
+.SailerOneR ul{
+    width:669px;
+    height:185px;
+    padding-top:15px;
+}
+.SailerOneR ul li{
+    width:140px;
+    height:auto;
+    margin-left:25px;
+    _margin-left:20px;
+}
+.SailerOneR ul li a{
+    text-decoration:none;
+}
+.SailerOneR ul li img{
+    width:140px;
+    height:140px;
+}
+.SailerOneR ul li h3{
+    width:134px;
+    height:20px;
+    line-height:20px;
+    padding:0px 3px;
+    overflow:hidden;
+    margin-top:3px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size:12px;
+}
+.SailerOneR ul li h3:hover{
+    color:#ff5656;
+}
+.SailerOneR ul li h4{
+    width:136px;
+    height:20px;
+    line-height:20px;
+    padding:0px 3px;
+}
+.SailerOneR ul li h4 i{
+    font-size:14px;
+    margin-right:10px;
+}
+.SailerOneR ul li h4 del{
+    color:#ccc;
+}
+
+
+/*------------------------------------------------------*/
+
+
+.MBottom{
+    width:936px;
+    height:22px;
+    margin-top:7px;
+}
+.MBottom a{
+    display:block;
+    text-decoration:none;
+    margin-top:5px;
+}
+.MBottom a.sele{
+    width:56px;
+    height:13px;
+}
+.MBottom a input{
+    width:13px;
+    height:13px;
+    margin-right:8px; 
+}
+.MBottom a i{
+    width:35px;
+    height:13px;
+    display:block;
+}
+.Re{
+    width:90px;
+    height:13px;
+    margin-left:10px;
+    line-height:13px;
+}
+.MBottom span{
+    width:300px;
+    height:22px;
+    line-height:22px;
+    display:block;
+}
+.MBottom span a{
+    width:32px;
+    height:22px;
+    display:inline-block;
+    margin:0px;
+}
+.MBottom span a.prevBtn{
+    margin-left:10px;
+    margin-right:4px;
+    background:url(../../images/Collect_Evaluation_Complaints/clickL.png) no-repeat center;
+}
+.MBottom span a.nextBtn{
+    background:url(../../images/Collect_Evaluation_Complaints/clickR.png) no-repeat center;
+}
+
+/*---------------MBottom END-----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

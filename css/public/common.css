@@ -1,0 +1,296 @@
+﻿@charset "utf-8";
+/*
+    *使用软件：VS2015
+    *制作时间：2015-10-29
+    *作者：王勇
+    *用途：个人中心公共样式
+*/
+.mainRight{
+	width:980px;
+
+	height:auto;
+    position:relative;
+}
+.personMain{
+	width:1190px;
+	height:auto;
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.mainLeft{
+	width:190px;
+	height:auto;
+	position:relative;
+	top:0px;
+	background:#ffffff;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.leftTop{
+	width:151px;
+	height:38px;
+	background: url(../../images/personal_index/l_bck.png) no-repeat center;
+	padding-left:25px;
+	position:relative;
+	top:0px;
+	left:20px;
+	z-index:2;
+}
+.leftTop h2{
+	font-size:15px;
+	line-height:38px;
+	color:#ffffff;
+	font-weight:bold;
+}
+.leftMain{
+	width:190px;
+	height:auto;
+	margin-top:20px;
+}
+.leftMain dl.leftMainDl{
+	width:190px;
+	height:auto;
+}
+dt.leftMainDt{
+	width:140px;
+	height:34px;
+	padding-left:50px;
+}
+dt.leftMainDt h3{
+	font-size:16px;
+	line-height:34px;
+	color:#4a4949;
+}
+dd.leftMainDd{
+	width:130px;
+	height:34px;
+	padding-left:60px;
+}
+dd.leftMainDd a{
+	color:#7d7d7d;
+	font-size:14px;
+	line-height:34px;
+	text-decoration: none;
+}
+dd.leftMainDd a:hover{
+   color:#ff5656;
+}
+.LeftFL{
+    width:160px;
+    height:3px;
+    margin:8px auto;
+    background:url(../../images/personal_index/zuo_fl.png) repeat-x center;
+}
+.Mright{
+    width:940px;
+    height:auto;
+    position:relative;
+    padding:50px 20px 25px 20px;
+}
+.Mrights{
+    width:980px;
+    height:auto;
+    position:relative;
+    padding:26px 0px 25px 0px;
+}
+.TopBack{
+    background:#fff url(../../images/refundment/refundment_topBj.jpg) no-repeat top center;
+}
+
+
+
+/*------------------mainLeft END----------------------*/
+
+
+
+.RRList{
+    width:980px;
+    height:auto;
+    _float:right;
+}
+.RRListT{
+    width:940px;
+    height:50px;
+    background:#fff;
+    padding:0px 20px;
+    _position:relative;
+    _left:20px;
+}
+.RRListT span{
+    width:140px;
+    height:50px;
+    line-height:50px;
+    font-size:16px;
+    font-weight:bold;
+}
+.RRListM{
+    width:940px;
+    height:auto;
+    margin:10px 0px 0px 0px;
+    _margin-left:20px;
+    background:#fff;
+    padding:25px 20px;
+}
+.RRListMs{
+    width:980px;
+    height:auto;
+    margin:10px 0px 0px 0px;
+    background:#fff;
+    padding:4px 0px;
+    _margin-left:20px;
+}
+
+/*---------------------mainRight END----------------------*/
+
+
+
+
+input:-moz-placeholder,textarea:-moz-placeholder{
+    font-size:12px;
+    color:#bbb;
+    font-family:SimSun;
+  }
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+    font-size:12px;
+    color:#bbb;
+    font-family:SimSun;
+  }
+input::-moz-placeholder,textarea::-moz-placeholder{
+    font-size:12px;
+    color:#bbb;
+    font-family:SimSun;
+ }
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{
+    font-size:12px;
+    color:#bbb;
+    font-family:SimSun;
+ }
+
+
+
+
+.marT{
+    margin-top:10px;
+}
+.marTs{
+    margin-top:15px;
+}
+.marB{
+    margin-bottom:30px;
+}
+.marBs{
+    margin-bottom:10px;
+}
+.marTS{
+    margin-top:30px;
+}
+.marTSt{
+    margin-top:20px;
+}
+.marBSt{
+    margin-bottom:20px;
+}
+.paddB{
+    padding-bottom:20px;
+}
+.fontF{
+    font-family:SimSun;
+}
+.colorOne{
+    color:#333;
+}
+.colorTwo{
+    color:#666;
+}
+.colorThree{
+    color:#999;
+}
+.colorFour{
+    color:#ff5656;
+}
+.colorFive{
+    color:#ff6600;
+}
+.colorSix{
+    color:#bbb;
+}
+.borM{
+    border:1px solid #e5e5e5;
+}
+.borT{
+    border-top:1px solid #e5e5e5;
+}
+.borR{
+    border-right:1px solid #e5e5e5;
+}
+.borB{
+    border-bottom:1px solid #e5e5e5;
+}
+.borL{
+    border-left:1px solid #e5e5e5;
+}
+.fontWei{
+    font-weight:normal;
+}
+p.rangTS{
+    width:200px;
+    height:30px;
+    line-height:30px;
+    padding-left:19px;
+    margin-left:10px;
+    background:url(../../images/ShopCart/tanhao.png) no-repeat left center;
+    color:#ff5756;
+    position:absolute;
+    top:2px;
+    left:375px;
+}
+p.allrightTS{
+    width:200px;
+    height:30px;
+    line-height:30px;
+    padding-left:19px;
+    margin-left:10px;
+    background:url(../../images/ShopCart/shopCartRight.png) no-repeat left center;
+    color:#6cac49;
+    position:absolute;
+    z-index:2;
+    left:375px;
+}
+
+
+.NothingOrder{
+	width:983px;
+	height:160px;
+	padding-top:75px;
+}
+.NothingOrders{
+	width:960px;
+	height:160px;
+	padding-top:120px;
+}
+.NothingOrderM{
+	width:380px;
+	height:50px;
+	line-height:50px;
+	background:url(../../images/personal_index/nothing/gwc_pic.png) no-repeat left center;
+}
+.NothingOrderMs{
+	width:380px;
+	height:50px;
+	line-height:50px;
+	background:url(../../images/myOrder/nothing/myOrder_nothing.png) no-repeat left center;
+}
+.NothingOrderM p,.NothingViewM p,.NothingOrderMs p{
+	width:298px;
+	height:50px;
+	padding-left:82px;
+	font-size:14px;
+	color:#cccccc;
+}
+.NothingOrderM p a,.NothingViewM p a,.NothingOrderMs p a{
+	color:#6fb0f9;
+
+}
+.NothingOrderM p a:hover,.NothingViewM p a:hover,.NothingOrderMs p a:hover{
+    text-decoration:underline;
+}

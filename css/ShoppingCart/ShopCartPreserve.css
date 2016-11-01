@@ -1,0 +1,401 @@
+﻿@charset "utf-8";
+
+/*
+    *使用软件：VS2015
+    *制作时间：2015-11-04
+    *作者：王勇
+    *用途：购物车 > 收货地址
+*/
+.ComplaintsTL{
+    width:70px;
+    height:50px;
+    font-size:16px;
+    font-weight:bold;
+    line-height:50px;
+}
+.PreserveM{
+    width:930px;
+    _width:930px;
+    height:auto;
+    margin-top:10px;
+    padding:34px 0px 0px 50px;
+    _padding:34px 0px 0px 50px;
+    background:#fff;
+    position:relative;
+    z-index:1;
+    _margin-left:20px;
+}
+.PreserveM h3.PreserveTs{
+    width:900px;
+    height:24px;
+    line-height:24px;
+    margin-left:6px;
+    color:#FF722C;
+    font-size:12px;
+    padding-left:17px;
+    background:url(../../images/refundment/Apply/ApplyPrompt.png) no-repeat left center;
+}
+.PreserveM h4.PreserveZY{
+    padding-left:23px;
+    font-size:12px;
+    line-height:22px;
+}
+
+.PreserveMBd{
+    width:910px;
+    height:auto;
+    padding:23px 0px 58px 20px;
+    position:relative;
+}
+.PreserveMBdO{
+    width:910px;
+    height:30px;
+    position:relative;
+    z-index:2;
+}
+.PreserveMBd span.PreserveMBdSpa{
+    width:95px;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    text-align:right;
+    margin-right:5px;
+    position:relative;
+}
+.PreserveMBd span.PreserveMBdSpa i{
+    color:#ff5656;
+}
+/*.PreserveMBdO span select{
+    min-width:90px;
+    height:28px;
+    line-height:28px;
+    font-size:12px;
+    color:#333;
+    font-family:SimSun;
+    padding:5px;
+    margin-right:10px;
+    border:none;
+}
+.PreserveMBdO span select option{
+    min-width:80px;
+    height:28px;
+    line-height:28px;
+    padding-left:10px;
+    border:none;
+}*/
+.MBdOm{
+    width:112px;
+    height:auto;
+    position:absolute;
+    z-index:20;
+}
+.pj
+{
+    min-width:100px;
+    height:18px;
+    padding:5px;
+    border:1px solid #dddddd;
+    position:relative;
+    z-index:11;
+    background:#fff;
+    
+    }
+.pj input
+{
+    width:80px;
+    height:18px;
+    line-height:18px;
+    float:left;
+    color:#333;
+    font-size:12px;
+    font-family:SimSun;
+    cursor:pointer;
+    
+    }
+.pj em
+{
+    width:17px;
+    height:18px;
+    float:left;
+    display:block;
+    cursor:pointer;
+    }
+.solid_b_btn
+{
+    background:url(../../images/ShopCart/AddPicB.jpg) no-repeat center;
+    }
+.solid_t_btn
+{
+    background:url(../../images/ShopCart/AddPicT.jpg) no-repeat center;
+    }
+.pjMationOne,.pjMationTwo,.pjMationThree
+{
+    width:110px;
+    _width:107px;
+    height:auto;
+    border:1px solid #dddddd; 
+    border-top:none;
+    position:relative;
+    left:0px;
+    z-index:10;
+    top:0px;
+    background:#fff;
+    }
+.pjMationOne a,.pjMationTwo a,.pjMationThree a
+{
+    width:100px;
+    height:28px;
+    display:inline-block;
+    line-height:28px;
+    padding-left:10px;
+    font-family:"SimSun";
+    }
+.pjMationOne a:hover,.pjMationTwo a:hover,.pjMationThree a:hover{
+    background:#deedff;
+    color:#333;
+}
+.posiLeftO{
+    top:0px;
+    left:100px;
+}
+.posiLeftT{
+    top:0px;
+    left:222px;
+}
+.posiLeftTH{
+    top:0px;
+    left:344px;
+}
+
+/*-----------------下拉选择地址结束---------------*/
+
+
+
+.PreserveMBdT{
+    width:560px;
+    height:64px;
+}
+.PreserveMBdT textarea.PreserveMBdTAdd{
+    width:336px;
+    height:42px;
+    padding:10px;
+    font-size:12px;
+    color:#333;
+}
+.PreserveMBdYZ,.BdConsignee,.BdPhon,.BdFixedLine,.BdSelect{
+    width:560px;
+    height:30px;
+}
+.PreserveMBdYZ input,.BdConsignee input,.BdPhon input{
+    width:182px;
+    height:28px;
+    line-height:28px;
+    padding-left:10px;
+    font-size:12px;
+    color:#333;
+    background:#fff;
+}
+.BdFixedLine em{
+    width:48px;
+    height:28px;
+    line-height:28px;
+}
+.BdFixedLine i{
+    width:10px;
+    height:1px;
+    _height:1px;
+    margin:14.5px 5px;
+    _margin:0px 5px 0px;
+}
+.BdFixedLine input{
+    width:88px;
+    height:28px;
+    line-height:28px;
+    padding-left:10px;
+    font-size:12px;
+    color:#333;
+}
+.BdSelect input{
+    width:13px;
+    height:13px;
+    margin-top:8px;
+    margin-left:100px;
+}
+.BdSelect p{
+    margin-left:10px;
+    line-height:30px;
+}
+.BdSub{
+    width:100px;
+    height:32px;
+    margin-left:100px;
+    _margin-left:0px;
+    _position:relative;
+    _left:100px;
+    background:url(../../images/ShopCart/PreserveBtn.png) no-repeat center;
+}
+.BdSub:hover{
+    background:url(../../images/ShopCart/PreserveBtnH.png) no-repeat center;
+}
+.BdSub input{
+    width:100px;
+    height:32px;
+    line-height:30px;
+    font-size:14px;
+    color:#fff;
+    cursor:pointer;
+}
+
+
+.BorB{
+    width:980px;
+    height:1px;
+}
+
+
+.PreserveAddList{
+    width:920px;
+    height:auto;
+    background:#fff;
+    padding:46px 30px 30px 30px;
+    position:relative;
+    z-index:2;
+    _margin-left:20px;
+}
+.AddListT{
+    width:920px;
+    height:40px;
+    line-height:40px;
+    background:#f5f5f5;
+}
+.AddListT span{
+    font-size:14px;
+    color:#666;
+    display:block;
+}
+.AddListT span.Man{
+    width:85px;
+    height:40px;
+}
+.AddListT span.Area{
+    width:138px;
+    height:40px;
+    padding-left:24px;
+}
+.AddListT span.Addres{
+    width:221px;
+    height:40px;
+    padding-left:24px;
+}
+.AddListT span.Ybian{
+    width:65px;
+    height:40px;
+    padding-left:24px;
+}
+.AddListT span.AddListTPhon{
+    width:110px;
+    height:40px;
+    padding-left:24px;
+}
+.AddListT span.Doing{
+    width:137px;
+    height:40px;
+}
+
+
+
+.AddListM{
+    width:920px;
+    padding:15px 0px;
+    line-height:20px;
+}
+.AddListMh{
+    width:920px;
+    padding:15px 0px;
+    line-height:20px;
+    background:#fcfffa url(../../images/ShopCart/LyellowBor.jpg) no-repeat left center;
+}
+.AddListM h3.Mans,.AddListMh h3.Mans{
+    width:85px;
+    font-size:12px;
+}
+.AddListM h4.Areas,.AddListMh h4.Areas{
+    width:138px;
+    padding-left:24px;
+}
+.AddListM p.Address,.AddListMh p.Address{
+    width:221px;
+    padding-left:24px;
+}
+.AddListM em.Ybians,.AddListMh em.Ybians{
+    width:65px;
+    padding-left:24px;
+}
+.AddListM i.AddListTPhons,.AddListMh i.AddListTPhons{
+    width:110px;
+    padding-left:24px;
+}
+.AddListM span.Doings,.AddListMh span.Doings{
+    width:58px;
+    _width:78px;
+    padding:0px 40px;
+    _padding:0px 30px;
+    background:url(../../images/ShopCart/blueCut.jpg) no-repeat center;
+}
+.AddListM span.Doings a,.AddListMh span.Doings a{
+    height:20px;
+    line-height:20px;
+    color:#2e78d3;
+    text-align:center;
+}
+
+
+.AddListMIcon{
+    width:57px;
+    height:20px;
+    cursor:pointer;
+}
+.AddListMIconGRE{
+    background:url(../../images/ShopCart/wancheng.png) no-repeat center;
+}
+.AddListMIconGRA{
+    background:url(../../images/ShopCart/wanchengGray.png) no-repeat center;
+}
+
+
+
+.AddListPosi{
+    width:11px;
+    height:33px;
+    position:absolute;
+    top:-17px;
+    left:26px;
+    z-index:3;
+    background:url(../../images/ShopCart/call.png) no-repeat center;
+}
+
+.AddListPosis{
+    width:11px;
+    height:33px;
+    position:absolute;
+    top:-17px;
+    right:26px;
+    z-index:3;
+    background:url(../../images/ShopCart/call.png) no-repeat center;
+}
+.AddresPopUp{
+    width:304px;
+    height:27px;
+    position:absolute;
+    top:0px;
+    left:35%;
+    z-index:10;
+    background:url(../../images/ShopCart/PreservePopUp.png) no-repeat top center;
+}
+.AddresPopUp p{
+    width:304px;
+    height:27px;
+    line-height:27px;
+    text-align:center;
+    color:#ff5656;
+}

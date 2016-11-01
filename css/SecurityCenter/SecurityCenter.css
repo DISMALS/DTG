@@ -1,0 +1,150 @@
+﻿@charset "UTF-8";
+
+/*
+    *实用软件：VS2015
+    *制作时间：2015-11-06
+    *作者：王勇
+    *用途：个人中心 >> 安全中心首页
+    *
+*/
+/*-----------------以下是安全中心首页样式---------------------*/
+
+
+.ComplaintsTL{
+    width:70px;
+    height:50px;
+    font-size:16px;
+    font-weight:bold;
+    line-height:50px;
+}
+
+
+.SecurityCenter{
+    width:824px;
+    height:auto;
+    padding:78px 78px 92px;
+    margin-top:10px;
+    background:#fff;
+    position:relative;
+}
+.SCOne{
+    width:824px;
+    height:86px;
+    margin-bottom:26px;
+    position:relative;
+}
+.SCOneL{
+    width:8px;
+    height:86px;
+    
+}
+.SCOneLn{
+    background:url(../../images/SecurityCenter/SecurityCenterL.png) no-repeat right center;
+}
+.SCOneLh{
+    background:url(../../images/SecurityCenter/SecurityCenterLh.png) no-repeat right center;
+}
+.SCPassWs{
+    width:8px;
+    height:86px;
+}
+.SCPassWsn{
+    background:url(../../images/SecurityCenter/SecurityCenterL.png) no-repeat right center;
+}
+.SCPassWsh{
+    background:url(../../images/SecurityCenter/SecurityCenterLh.png) no-repeat right center;
+}
+.SCOneC{
+    width:808px;
+    _width:800px;
+    height:86px;
+    position:relative;
+}
+.SCOneCn{
+    background:url(../../images/SecurityCenter/SecurityCenterC.png) repeat-x center;
+}
+.SCOneCh{
+    background:url(../../images/SecurityCenter/SecurityCenterCh.png) repeat-x center;
+}
+.SCOneC span{
+    width:73px;
+    height:86px;
+    padding-left:60px;
+    line-height:86px;
+    font-size:22px;
+}
+.SCOneC span.SCPassW{
+    background:url(../../images/SecurityCenter/passPic.png) no-repeat 18px center;
+}
+ .SCOneC span.Email{
+     background:url(../../images/SecurityCenter/EmailGra.jpg) no-repeat 18px center;
+ }
+ .SCOneC span.Emails{
+     background:url(../../images/SecurityCenter/EmailGre.png) no-repeat 18px center;
+ }
+ .SCOneC span.Phon{
+     background:url(../../images/SecurityCenter/PhonGra.jpg) no-repeat 18px center;
+ }
+ .SCOneC span.Phons{
+     background:url(../../images/SecurityCenter/PhonGre.png) no-repeat 18px center;
+ }
+.SCOneR{
+    width:8px;
+    height:86px;
+}
+.SCOneRn{
+    background:url(../../images/SecurityCenter/SecurityCenterR.png) no-repeat left center;
+}
+.SCOneRh{
+    background:url(../../images/SecurityCenter/SecurityCenterRh.png) no-repeat left center;
+}
+.SCOneC em{
+    width:5px;
+    height:40px;
+    margin-top:23px;
+    background:url(../../images/SecurityCenter/SecurityCenterIcon.png) no-repeat center;
+}
+.SCOneC p{
+    width:525px;
+    height:20px;
+    line-height:20px;
+    margin-top:33px;
+    padding-left:30px;
+    font-size:12px;
+    font-family:SimSun;
+}
+.SCOneC p em{
+    font-family:'Microsoft YaHei';
+}
+.SCOneC p.ts{
+    color:#fc8134;
+}
+.SCOneC a{
+    width:50px;
+    height:13px;
+    line-height:13px;
+    font-size:12px;
+    font-family:SimSun;
+    margin-top:36px;
+    margin-left:47px;
+}
+.SCOneC a.Modify{
+    background:url(../../images/SecurityCenter/Modify.png) no-repeat right center;
+}
+.SCOneC a.Modifys{
+    background:url(../../images/SecurityCenter/ModifyGre.png) no-repeat right center;
+}
+.SCOneC a.Binding{
+    background:url(../../images/SecurityCenter/Binding.png) no-repeat right center;
+}
+.SCOneC a.Bindings{
+    background:url(../../images/SecurityCenter/OverBding.png) no-repeat right center;
+}
+.SCOneC img.MouseO{
+    width:54px;
+    height:40px;
+    position:absolute;
+    top:2px;
+    right:-6px;
+    z-index:2;
+}

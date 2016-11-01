@@ -1,0 +1,307 @@
+﻿@charset "utf-8";
+
+/*
+*使用软件：VS2010
+*制作时间：2015-10-23
+*作者：王勇
+*用途：我的订单页面，取消订单弹窗样式
+*
+*/
+.popUpWrap
+{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0px;
+    z-index:9999999;
+    background:url(../../images/popUp/popUpB.png) repeat center;
+    display:none;
+    }
+.popUp
+{
+    width:592px;
+    height:auto;
+    position:relative;
+    top:25%;
+    }
+.popUpMainOne
+{
+    width:592px;
+    height:auto;
+    position:relative;
+    display:none;
+    }
+.popUpMainOneM
+{
+    width:580px;
+    height:auto;
+    position:relative;
+    top:0px;
+    z-index:1;
+    }
+.popUpMainT
+{
+    width:580px;
+    height:7px;
+    background:url(../../images/popUp/qx_dd_bj_top.png) no-repeat top center;
+    }
+.popUpMainM
+{
+    width:580px;
+    height:auto;
+    background:#ffffff;
+    padding-top:100px;
+    padding-bottom:63px;
+    }
+.popUpMenu
+{
+    width:330px;
+    height:auto;
+    }
+.popUpMainMText
+{
+    width:330px;
+    height:38px;
+    line-height:38px;
+    }
+.popUpMainMText span
+{
+    width:85px;
+    height:38px;
+    display:block;
+    font-size:14px;
+    color:#999;
+    }
+.popUpMainMText span i
+{
+    color:#ff5656;
+    margin-right:4px;
+    }
+.popUpxl
+{
+    width:243px;
+    height:38px;
+    cursor:pointer;
+    }
+.popUpxl a{
+    text-decoration:none;
+}
+.popUpMainMText input
+{
+    width:205px;
+    height:38px;
+    border:1px solid #e5e5e5;
+    text-align:left;
+    line-height:38px;
+    color:#cccccc;
+    padding-left:10px;
+    }
+.popUpMainMText .popUpxl a p
+{
+    display:block;
+    width:37px;
+    height:36px;
+    border:1px solid #e5e5e5;
+    border-left:none;
+    padding:0px;
+    margin:0px;
+    }
+.qxBtnB
+{
+    background:url(../../images/popUp/qx_dd_xlb_btn.png) no-repeat center;
+    }
+.qxBtnT
+{
+    background:url(../../images/popUp/qx_dd_xlt_btn.png) no-repeat center;
+    }
+
+
+
+.checkBox
+{
+    width:328px;
+    height:auto;
+    border:1px solid #e5e5e5;
+    position:relative;
+    margin-top:10px;
+    padding:10px 0px;
+    }
+.qxOrderTo
+{
+    width:12px;
+    height:6px;
+    position:absolute;
+    top:-13px;
+    z-index:2;
+    right:15px;
+    }
+.checkBoxOne
+{
+    width:149px;
+    height:26px;
+    cursor:pointer;
+    line-height:26px;
+    padding-left:10px;
+    }
+.selectPic
+{
+    width:12px;
+    height:12px;
+    margin-top:7px;
+    }
+.Blur
+{
+    background:url(../../images/popUp/blur.jpg) no-repeat center;
+    }
+.Focus
+{
+    background:url(../../images/popUp/focus.jpg) no-repeat center;
+    }
+.checkBoxOne span
+{
+    width:125px;
+    height:26px;
+    margin-left:10px;
+    font-size:12px;
+    font-family:"SimSun";
+    }
+.popUpMainM p
+{
+    width:420px;
+    height:26px;
+    line-height:26px;
+    padding:0px 80px;
+    text-align:center;
+    font-size:12px;
+    font-family:"SimSun";
+    color:#ff6600;
+    margin:30px 0px;
+    }
+.CBtn
+{
+    width:320px;
+    height:36px;
+    line-height:36px;
+    }
+.CBtn div
+{
+    width:130px; 
+    height:36px;
+    font-size:14px;
+    color:#333333;
+    text-align:center;
+    margin:0px 10px;
+    background:url(../../images/popUp/qx_dd_btn.png) no-repeat center;
+    }
+.CBtn div input
+{
+    width:130px; 
+    height:36px;
+    cursor:pointer;
+    }
+
+
+
+.popUpMainOneTop
+{
+    width:590px;
+    height:48px;
+    line-height:50px;
+    position:absolute;
+    top:13px;
+    z-index:2;
+    border:1px solid #e5e5e5;
+    background:#fbfbfb;
+    }
+.jsPic
+{
+    width:66px;
+    height:61px;
+    position:relative;
+    top:-4px;
+    left:18px;
+    z-index:3;
+    }
+.jsPic img
+{
+    width:66px;
+    height:61px;
+    }
+.popUpMainOneTop span
+{
+    width:150px;
+    height:50px;
+    display:block;
+    font-size:14px;
+    color:#333333;
+    font-weight:bold;
+    margin-left:37px;
+    }
+
+
+
+.Close
+{
+    width:38px;
+    height:38px;
+    margin-top:6px;
+    margin-right:13px;
+    cursor:pointer;
+    }
+.Close img
+{
+    width:38px;
+    height:38px;
+    }
+
+
+
+
+
+
+.popUpMainB
+{
+    width:580px;
+    height:7px;
+    background:url(../../images/popUp/qx_dd_bj_bottom.png) no-repeat top center;
+    }
+
+
+
+/*-----------------popUpMainOne END-------------------*/
+
+
+.popUpMainTwo
+{
+    width:580px;
+    height:auto;
+    display:none;
+    }
+.closeBtn
+{
+    width:26px;
+    height:26px;
+    position:absolute;
+    top:10px;
+    right:15px;
+    cursor:pointer;
+    }
+.seccefulM
+{
+    width:580px;
+    height:52px;
+    line-height:26px;
+    text-align:center;
+    }
+.seccefulM h2
+{
+    color:#ff5656;
+    font-size:14px;
+    }
+.flashEm
+{
+    width:580px;
+    height:26px;
+    color:#999999;
+    font-size:12px;
+    }

@@ -1,0 +1,176 @@
+﻿@charset "utf-8";
+
+/*
+    *使用软件：VS2015
+    *制作时间：2015-10-30
+    *作者：王勇
+    *用途：个人中心退款管理列表样式
+    *
+*/
+.RRListTbd{
+    width:220px;
+    height:26px;
+    line-height:26px;
+    margin-top:11px;
+}
+.RRListTbd input.TextRRLiestL{
+    width:157px;
+    height:26px;
+    line-height:26px;
+    padding-left:10px;
+    font-size:12px;
+    background:#fff;
+    font-family:SimSun;
+}
+.RRListTbd input.TextRRLiestR{
+    width:53px;
+    height:26px;
+    color:#000;
+    cursor:pointer;
+    background:#fbfbfb;
+}
+
+
+
+/*-----------------------RRListT END-----------------------*/
+
+
+
+.RRListMTit{
+    width:938px;
+    height:38px;
+    line-height:38px;
+    background:#f5f5f5;
+}
+.RRListMTit h3{
+    font-size:14px;
+}
+.RRProName{
+    width:394px;
+    height:38px;
+}
+.RRProTrueM{
+    width:160px;
+    height:38px;
+}
+.RRProRM{
+    width:130px;
+    height:38px;
+}
+.RRProTimes{
+    width:150px;
+    height:38px;
+}
+.RRProDo{
+    width:104px;
+    height:38px;
+}
+
+
+/*-------------------RRListMTit END--------------------*/
+
+
+
+.RRListMm{
+    width:940px;
+    height:auto;
+}
+
+
+
+.RRListMmOne{
+    width:938px;
+    height:auto;
+    margin-top:10px;
+}
+.RRListMmOneT{
+    width:938px;
+    height:38px;
+    line-height:38px;
+}
+.RRListMmOneT h4{
+    width:240px;
+    height:38px;
+    padding-left:10px;
+}
+.RRListMmOneT b{
+    width:240px;
+    line-height:38px;
+}
+.RRListMmOneT span{
+    width:100px;
+    height:38px;
+    margin-right:15px;
+}
+
+
+/*-------------------RRListMmOneT END--------------------*/
+
+
+.RRListMmOneM{
+    width:903px;
+    height:auto;
+    padding:20px 15px 20px 20px;
+}
+.RRListMmOneM img{
+    width:68px;
+    height:68px;
+    margin-right:10px;
+}
+
+.RROneMT{
+    width:294px;
+    height:70px;
+}
+.RROneMT a{
+    text-decoration:none;
+}
+.RROneMT a:hover{
+    color:#ff5656;
+}
+.RROneMT h2{
+    width:294px;
+    max-height:36px;
+    line-height:18px;
+    overflow:hidden;
+    font-size:12px;
+}
+.RROneMT h4{
+    width:294px;
+    height:28px;
+    line-height:28px;
+    overflow:hidden;
+}
+.RROneMmon{
+    width:160px;
+    height:70px;
+    line-height:18px;
+}
+.RROneMmon h4{
+    font-size:12px;
+}
+.RROneMmon h2,.RROneMRmon h2{
+    font-weight:bold;
+    font-size:14px;
+}
+.RROneMRmon{
+    width:130px;
+    height:70px;
+}
+.RROneMTim{
+    width:150px;
+    height:70px;
+    line-height:18px;
+}
+.RROneMTim h2{
+    font-size:12px;
+}
+.RROneMDo{
+    width:81px;
+    height:70px;
+    padding-right:8px;
+    line-height:18px;
+}
+.RROneMDo a{
+    text-decoration:none;
+}

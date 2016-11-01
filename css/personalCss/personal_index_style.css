@@ -1,0 +1,463 @@
+﻿@charset 'utf-8';
+	
+/*
+ 
+ * 制作时间：2015-10-13
+ * 作者：王勇
+ * 使用软件：HBuilder 6.5.0
+ * 样式使用于个人中心首页部分
+ * 
+ * 
+ * */
+.personMain{
+	width:1190px;
+	height:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.mainLeft{
+	width:190px;
+	height:auto;
+	position:relative;
+	top:0px;
+	background:#ffffff;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.leftTop{
+	width:151px;
+	height:38px;
+	background: url(../../images/personal_index/l_bck.png) no-repeat center;
+	padding-left:25px;
+	position:relative;
+	top:0px;
+	left:20px;
+	z-index:2;
+}
+.leftTop h2{
+	font-size:15px;
+	line-height:38px;
+	color:#ffffff;
+	font-weight:bold;
+}
+.leftMain{
+	width:190px;
+	height:auto;
+	margin-top:20px;
+}
+.leftMain dl.leftMainDl{
+	width:190px;
+	height:auto;
+}
+dt.leftMainDt{
+	width:140px;
+	height:34px;
+	padding-left:50px;
+}
+dt.leftMainDt h3{
+	font-size:16px;
+	line-height:34px;
+	color:#4a4949;
+}
+dd.leftMainDd{
+	width:130px;
+	height:34px;
+	padding-left:60px;
+}
+dd.leftMainDd a{
+	color:#7d7d7d;
+	font-size:14px;
+	line-height:34px;
+	text-decoration: none;
+}
+dd.leftMainDd a:hover{
+   color:#ff5656;
+}
+.LeftFL{
+    width:160px;
+    height:3px;
+    margin:8px auto;
+    background:url(../../images/personal_index/zuo_fl.png) repeat-x center;
+}
+
+
+/*------------------mainLeft END----------------------*/
+
+
+.mainRight{
+	width:983px;
+	height:auto;
+}
+.rightTop{
+	width:983px;
+	height:auto;
+}
+.rightTopLeft{
+	width:559px;
+	height:auto;
+	background:#fff;
+	padding:14px 18px 16px 13px;
+}
+.rightTopLeftm{
+	width:559px;
+	height:192px;
+	background:url(../../images/personal_index/TopLeftl_bck.jpg) no-repeat center;
+}
+.TopLeftl{
+	width:148px;
+	height:148px;
+	overflow:hidden;
+	position:relative;
+	left:0px;
+	_left:-22px;
+	margin-left:22px;
+	margin-top:21px;
+	_margin-left:0px;
+	_margin-top:0px;
+	cursor:pointer;
+	display:block;
+}
+.TopLeftl a{
+	width:148px;
+	height:148px;
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+.mainPic{
+	width:148px;
+	height:148px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+}
+.kuangPic{
+	width:148px;
+	height:148px;
+	position:absolute;
+	top:0px;
+	z-index:4;
+}
+.TopLeftr{
+	width:340px;
+	height:148px;
+	margin-left:45px;
+	_margin-left:20px;
+	margin-top:30px;
+}
+.TopLeftr a:hover{
+    color:#ff5656;
+ }
+.perName{
+	width:340px;
+	height:38px;
+}
+.perName h3{
+	color:#636363;
+	font-size:18px;
+	line-height:38px;
+	float:left;
+}
+.perName b{
+	width:22px;
+	height:22px;
+	margin-top:8px;
+	margin-left:15px;
+	display:block;
+	float:left;
+	text-align:center;
+	line-height:20px;
+	font-size:10px;
+	color:#ff722c;
+	background:#ff722c url(../../images/personal_index/evel_pic.jpg) no-repeat center;
+	
+}
+.perInfo{
+	width:340px;
+	height:38px;
+}
+.perInfo h4{
+	display: inline-block;
+	color:#ff722c;
+	font-size:14px;
+	line-height:38px;
+	float:left;
+}
+.xxTiao{
+	width:108px;
+	height:8px;
+	overflow:hidden;
+	display:block;
+	margin:15px 10px;
+	background:#e4e4e4;
+}
+.xxTiao span{
+	width:15px;
+	height:8px;
+	display:block;
+	background:#60a5f7;
+}
+.perInfo a{
+	line-height:38px;
+	font-size:12px;
+	color:#52901c;
+	text-decoration:none;
+}
+.perKey{
+	width:340px;
+	height:38px;
+	line-height:38px;
+}
+.perKey h3{
+	width:80px;
+	height:38px;
+	float:left;
+	font-size:12px;
+	color:#5a5a5a;
+}
+.perKey h3 i{
+	color:#fb0000;
+}
+.perKey a{
+	width:65px;
+	height:38px;
+	padding-left:20px;
+	margin-left:20px;
+	float:left;
+	color:#676767;
+	font-size:12px;
+	text-decoration:none;
+}
+.perKey a.phonHui{
+	background:url(../../images/personal_index/phone_hui_pic.png) no-repeat left center;
+}
+.perKey a.emailHui{
+	background:url(../../images/personal_index/email_hui_pic.png) no-repeat left center;
+}
+
+.perKey a.phonJh{
+	background:url(../../images/personal_index/phone_jh_pic.png) no-repeat left center;
+}
+.perKey a.emailJh{
+	background:url(../../images/personal_index/email_jh_pic.png) no-repeat left center;
+}
+
+
+
+/*------------------rightTopLeft END----------------------*/
+
+
+
+.rightTopRight{
+	width:338px;
+	height:auto;
+	padding:14px 16px 14px 16px;
+	background:#fff;
+}
+.rightTopRightM{
+	width:325px;
+	height:auto;
+	padding-left:13px;
+	padding-top:13px;
+	padding-bottom:13px;
+	background:#f7f7f7;
+}
+.TopRightMain{
+	width:160px;
+	height:51px;
+	margin-top:20px;
+	margin-bottom:13px;
+	_margin-top:15px;
+	_margin-bottom:5px;
+	line-height:51px;
+}
+.TopRightMain a.Img{
+	display:block;
+	width:51px;
+	height:51px;
+	float:left;
+}
+.TopRightMain a.Img img{
+	width:51px;
+	height:51px;
+	
+}
+.TopRightMain a.Text{
+	width:92px;
+	height:51px;
+	_width:78px;
+	text-align:left;
+	display:block;
+	float:left;
+}
+.TopRightMain a.Text h4{
+	width:92px;
+	_width:78px;
+	text-align:left;
+	height:51px;
+	float:left;
+	margin-left:15px;
+	_margin-left:5px;
+	font-size:14px;
+	color:#676767;
+}
+.TopRightMain a.Text h4 i{
+	color:#e92351;
+}
+.TopRightMain a.Text h4 i.nWu{
+	color:#676767;
+}
+
+
+/*------------------rightTopRight END----------------------*/
+
+
+
+.RightLike,.RightView{
+	width:983px;
+	height:auto;
+	background:#fff;
+	margin-top:20px;
+	padding-bottom:10px;
+}
+.LikeTitleR{
+	width:65px;
+	height:52px;
+	margin-right:20px;
+}
+.LikeMain{
+	width:943px;
+	height:auto;
+	margin-top:5px;
+	overflow:hidden;
+	position:relative;
+}
+.LikeMains{
+	width:943px;
+	height:auto;
+	position:relative;
+}
+.listMain{
+	width:943px;
+	height:207px;
+	position:relative;
+	overflow:hidden;
+}
+.LikeMainList{
+	width:943px;
+	height:207px;
+	position:relative;
+	overflow:hidden;
+}
+.LikeMain ul{
+	height:207px;
+	position:absolute;
+}
+.SLMain{ 
+	position:absolute; 
+	left:-3000px; 
+	top:0px;
+	}
+.LikeMain ul li{
+	width:160px;
+	height:auto;
+	margin:0px 14px;
+	_margin:0px 12px;
+}
+.LikeMain ul li img{
+	width:160px;
+	height:160px;
+}
+.LikeMain ul li a{
+    color:#515151;
+	text-decoration:none;
+}
+.LikeMain ul li a:hover{
+    color:#ff5656;
+}
+.LikeMain ul li a h2{
+	width:160px;
+	height:24px;
+	padding:0px 0px 0px;
+	font-size:12px;
+	
+	line-height:24px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.LikeMain ul li a h3{
+	color:#e6243b;
+	font-size:14px;
+	padding-left:5px;
+}
+.LikeMain .prev,.LikeMain .prevs{
+	width:22px;
+	height:41px;
+	position:absolute;
+	top:25%;
+	left:0px;
+	cursor:pointer;
+	z-index:8;
+	display:none;
+	background:url(../../images/personal_index/zuo_btn.png) no-repeat center;
+}
+.LikeMain .next,.LikeMain .nexts{
+	width:22px;
+	height:41px;
+	position:absolute;
+	top:25%;
+	right:0px;
+	cursor:pointer;
+	z-index:8;
+	display: none;
+	background:url(../../images/personal_index/you_btn.png) no-repeat center;
+}
+
+.LikeMain:hover .next,.LikeMain:hover .nexts{
+	width:22px;
+	height:41px;
+	position:absolute;
+	top:25%;
+	right:0px;
+	cursor:pointer;
+	z-index:8;
+	display: block;
+	background:url(../../images/personal_index/you_btn.png) no-repeat center;
+}
+.LikeMain:hover .prev,.LikeMain:hover .prevs{
+	width:22px;
+	height:41px;
+	position:absolute;
+	top:25%;
+	right:0px;
+	cursor:pointer;
+	z-index:8;
+	display: block;
+	background:url(../../images/personal_index/zuo_btn.png) no-repeat center;
+}
+
+/*-------------------RightLike AND RightView END------------------*/
+
+
+.Stript
+{
+    overflow:hidden;
+    width:3000px;
+    height:207px;
+    zoom:1;
+    }
+.ListOne
+{
+    float:left;
+    width:940px;
+    height:207px;
+    display:block;
+    }
+.ListTwo
+{
+    float:left;
+    width:940px;
+    height:207px;
+    display:block;
+    }

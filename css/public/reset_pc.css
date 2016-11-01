@@ -1,0 +1,126 @@
+﻿@charset 'utf-8';
+
+html,body,button,blockquote,caption,div,fieldset,form,figure,menu,hr,input,img,legend,ul,li,ol,dl,dd,dt,p,pre,h1,h2,h3,h4,h5,h6,td,table,textarea,th,select{
+	margin:0;
+	padding:0;
+}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display:block;
+	}
+body{
+	font-family:"microsoft yahei",arial,sans-serif;
+	font-size:12px;
+    background:#f9f9f9;
+}
+ul,li,ol,dl,dd,dt{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	outline:none;
+}
+a:link{
+	text-decoration:none;
+	outline:none;
+}
+a:visited{
+	text-decoration:none;
+	outline:none;
+}
+a:hover{
+	text-decoration:none;
+	outline:none;
+    color:#ff5656;
+}
+a:active{
+	text-decoration:none;
+	outline:none;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+address, caption, cite, code, dfn, em, strong, th, var{
+	font-style:normal; 
+    font-weight:normal;
+	}
+html,body,fieldset,img,iframe,abbr{
+	border:0;
+	}
+i,cite,em,var,address,dfn{
+	font-style:normal; 
+    font-weight:normal;
+	}
+pre,code,kbd,samp{
+	font-family:inherit;
+	}
+q:before,q:after{
+	content:none;
+	}
+textarea{
+	overflow:auto;
+	resize:none;
+	}
+a,button{
+	cursor:pointer;
+	}
+input{
+	background:none;
+	border:none;
+	}
+h1,h2,h3,h4,h5,h6,em,strong,i,b{
+	font-weight:normal;
+	}
+label,summary{
+	cursor:default;
+	}
+textarea{
+	overflow:auto;
+	resize:none;
+	}
+.cl,.clear{
+	clear: both; 
+    width: 100%; 
+    height: 0px; 
+    font-size: 0px; 
+    overflow:hidden;
+}
+.mar_c{
+	margin:0px auto;
+	padding:0px;
+}
+.float_l,.left{
+	float:left;
+    _float:left;
+}
+.float_r,.right{
+	float:right;
+    _float:right;
+}
+.text_l{
+	text-align:left;
+}
+.text_c{
+	text-align:center;
+}
+.text_r{
+	text-align:right;
+}
+.dis_b{
+	display:block;
+}
+.dis_i{
+	display:inline-block;
+}
+.dis_n{
+	display:none;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height:0; 
+    clear:both; 
+    visibility: hidden;
+}
+.clearfix { *zoom:1; }
+.content{ width:1190px; margin:0 auto;}

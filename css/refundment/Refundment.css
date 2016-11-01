@@ -1,0 +1,876 @@
+﻿@charset "utf-8";
+/*
+    *使用软件：VS2015
+    *制作时间：2015-10-29
+    *作者：王勇
+    *用途：个人中心公共样式
+*/
+
+.RefundROne{
+    width:708px;
+    _width:788px;
+    height:116px; 
+}
+.RefundROne a{
+    width:226px;
+    height:116px;
+    display:block;
+    margin:0px 64px;
+    line-height:116px;
+    outline:none;
+    font-size:20px;
+    background:url(../../images/refundment/refundmentBorG.jpg) no-repeat center;
+}
+.RefundROne a.clickS{
+    height:116px;
+    line-height:116px;
+    color:#333;
+    outline:none;
+    text-decoration:none;
+    background:url(../../images/refundment/refundmentBorL.jpg) no-repeat center;
+}
+.RefundROne a.hoverbak{
+    height:116px;
+    line-height:116px;
+    color:#333;
+    text-decoration:none;
+    background:url(../../images/refundment/refundmentBorGs.jpg) no-repeat center;
+}
+
+/*----------RefundROne END -----------*/
+
+
+.RefundRwb{
+    width:938px;
+    height:auto;
+    margin-top:70px;
+}
+.RefundRwbT{
+    width:923px;
+    height:38px;
+    line-height:38px;
+    padding-left:15px;
+}
+.RefundRwbT  span{
+    display:block;
+    font-size:14px;
+}
+.RefundRwbM{
+    width:923px;
+    padding:11px 0px 55px 15px;
+}
+.RefundRwbM h3{
+    font-size:14px;
+    line-height:24px;
+    margin-top:12px;
+}
+.RefundRwbM p{
+    font-size:12px;
+    line-height:18px;
+}
+
+/*-------------------RefundRwb END------------------*/
+
+
+
+
+/*
+    *以上是退款申请第一步选择方式样式结束
+    *
+    *以下样式是退款退货——买家申请
+    *
+*/
+
+
+
+
+.RRApplyProAll{
+    width:938px;
+    height:auto;
+    position:relative;
+    z-index:1;
+}
+.RRApplyPro{
+    width:938px;
+    height:auto;
+}
+.RRApplyProT{
+    width:938px;
+    height:38px;
+    background:#f5f5f5;
+    line-height:38px;
+}
+.RRApplyProT h3{
+    font-size:14px;
+}
+.ApplyProName{
+    width:290px;
+    height:38px;
+    text-align:center;
+}
+.ApplyProPri{
+    width:142px;
+    height:38px;
+}
+.ApplyProMuch{
+    width:124px;
+    height:38px;
+}
+.ApplyProTotal{
+    width:188px;
+    height:38px;
+}
+.ApplyProSail{
+    width:194px;
+    height:38px;
+}
+
+
+/*-------------------RRApplyProT END------------------*/
+
+
+.RRApplyProM{
+    width:913px;
+    height:auto;
+    padding:20px 0px 20px 25px;
+}
+.RRApplyProM img{
+    width:68px;
+    height:68px;
+}
+.ProMProTit {
+    width:185px;
+    height:70px;
+    margin-left:10px;
+}\
+.ProMProTit a:hover{
+     color:#ff5656;
+ }
+.ProMProTit h3{
+    width:185px;
+    max-height:36px;
+    line-height:18px;
+    font-size:12px;
+}
+.ProMProTit h4{
+    width:185px;
+    height:30px;
+    overflow:hidden;
+    line-height:30px;
+    font-size:12px;
+}
+.ProMProPri{
+    width:142px;
+    height:70px;
+    line-height:18px;
+}
+.ProMProPri h3{
+    font-size:12px;
+}
+.ProMProMuch{
+    width:124px;
+    height:70px;
+    line-height:18px;
+}
+.ProMProMuch h3{
+    font-size:12px;
+}
+.ProMProTotal{
+    width:188px;
+    height:70px;
+    line-height:18px;
+}
+.ProMProTotal i{
+    font-weight:bold;
+}
+.ProMProSail{
+    width:194px;
+    height:70px;
+    line-height:18px;
+}
+
+/*---------RRApplyProM END---------*/
+
+
+.ProAllP{
+    width:940px;
+    height:22px;
+    position:absolute;
+    top:139px;
+    z-index:2;
+    left:-1px;
+}
+.ProAllL {
+    width:10px;
+    height:22px;
+    background:url(../../images/refundment/Apply/ApplyBYL.png) no-repeat center;
+}
+.ProAllR {
+    width:10px;
+    height:22px;
+    background:url(../../images/refundment/Apply/ApplyBYR.png) no-repeat center;
+}
+
+
+
+
+
+
+
+
+/*-------------------RRApplyPro END------------------*/
+
+
+.RRApplyProcess{
+    width:938px;
+    height:auto;
+}
+.ProcessL{
+    width:176px;
+    height:auto;
+    padding:65px 16px 0px 0px;
+    position:relative;
+    _position:relative;
+    _z-index:2;
+    background:#fbfbfb;
+}
+.ProcessLM{
+    width:175px;
+    height:auto;
+}
+.ProcessLOne{
+    width:175px;
+    height:20px;
+    line-height:20px;
+    margin:0px 0px 90px 0px;
+}
+.ProcessLOne h4{
+    width:140px;
+    height:20px;
+    margin-right:10px;
+}
+.ProcessLOne em{
+    width:20px;
+    height:20px;
+    float:right;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    line-height:19px;
+    position:relative;
+    z-index:2;
+}
+.ProcessLOne em.Green{
+     background:url(../../images/ShopCart/i_green_bg.png) no-repeat center;
+ }
+.ProcessLOne em.Gray{
+    background:url(../../images/ShopCart/i_gray_bg.png) no-repeat center;
+}
+.ProcessLOne em.Secces{
+     background:url(../../images/ShopCart/wancheng.png) no-repeat center;
+ }
+
+
+/*-------------------ProcessLOne END------------------*/
+
+
+
+.ProcessLBJt{
+    width:2px;
+    height:460px;
+    display:block;
+    background:#ccc;
+    position:absolute;
+    _position:absolute;
+    right:26px;
+    _right:26px;
+    top:65px;
+    _top:65px;
+    z-index:1;
+    _z-index:1;
+}
+.ProcessLBJtG{
+    width:2px;
+    height:20px;
+    background:#7abd54;
+}
+.jiantou{
+    width:11px;
+    height:21px;
+    position:absolute;
+    _position:absolute;
+    z-index:2;
+    _z-index:2;
+    top:65px;
+    _top:65px;
+    right:-11px;
+    _right:-11px;
+    background:url(../../images/refundment/Apply/ApplySsj.jpg) no-repeat center;
+}
+.Clips{
+    width:33px;
+    height:100%;
+    position:absolute;
+    _position:absolute;
+    z-index:3;
+    _z-index:3;
+    top:0px;
+    _top:0px;
+    right:-16.5px;
+    _right:-16.5px;
+}
+.ClipsT{
+    width:33px;
+    height:11px;
+    position:relative;
+    _position:relative;
+    top:20px;
+    _top:20px;
+    background:url(../../images/refundment/Apply/ApplySuoKou.png) no-repeat center;
+    _z-index:10;
+}
+.ClipsB{
+    width:33px;
+    height:11px;
+    position:absolute;
+    _position:absolute;
+    top:556px;
+    _top:556px;
+    _z-index:10;
+    background:url(../../images/refundment/Apply/ApplySuoKou.png) no-repeat center;
+}
+
+
+/*-------------------ProcessL END------------------*/
+
+
+
+
+.ProcessR{
+    width:665px;
+    height:auto;
+    background:#fff;
+    position:relative;
+    _position:relative;
+    padding:50px 0px 10px 80px;
+    _padding:50px 0px 10px 56px;
+}
+.ProcessRM{
+    width:666px;
+    height:auto;
+    _position:relative;
+}
+.ProcessRMSele{
+    width:666px;
+    height:32px;
+    line-height:32px;
+    margin-bottom:20px;
+}
+.ProcessRMSele span,.ProcessRMMony span,.ProcessRMinfo span{
+    width:84px;
+    height:32px;
+    font-size:14px;
+}
+.ProcessRMSele span i,.ProcessRMMony span i{
+    margin-right:5px;
+}
+.ProcessRMSeleM{
+    width:234px;
+    height:auto;
+    position:relative;
+    margin-left:5px;
+}
+.SeleMT{
+    width:234px;
+    height:30px;
+    line-height:30px;
+    cursor:pointer;
+}
+.SeleMT span{
+    width:192px;
+    height:30px;
+    font-size:12px;
+    padding-left:10px;
+    display:block;
+    color:#333;
+}
+.SeleMT em{
+    width:32px;
+    height:30px;
+    display:block;
+}
+.SeleMT em.Bottom{
+    background:url(../../images/popUp/qx_dd_xlb_btn.png) no-repeat center;
+}
+.SeleMT em.Top{
+    background:url(../../images/popUp/qx_dd_xlt_btn.png) no-repeat center;
+}
+.SeleMm{
+    width:234px;
+    height:auto;
+    position:absolute;
+    top:31px;
+    left:-1px;
+    border-top:none;
+    z-index:3;
+    line-height:32px;
+    background:#fff;
+}
+.SeleMm a{
+    width:224px;
+    height:32px;
+    padding-left:10px;
+}
+.SeleMm a:hover{
+    font-weight:bold;
+    color:#fd8034;
+    text-decoration:none;
+    background:#fde9dc;
+}
+
+
+/*-------------------ProcessRMSele END------------------*/
+
+
+.ProcessRMMony{
+    width:666px;
+    height:32px;
+    line-height:30px;
+    margin-bottom:20px;
+}
+.ProcessRMMony input{
+    width:85px;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    border-right:none;
+    margin-left:5px;
+    padding-left:10px;
+}
+.ProcessRMMony pre{
+    width:40px;
+    height:30px;
+    border-left:none;
+}
+.beizhu{
+    width:150px;
+    height:32px;
+    margin-left:5px;
+}
+
+
+/*-------------------ProcessRMMony END------------------*/
+
+.ProcessRMinfo{
+    width:666px;
+    height:71px;
+    margin-bottom:20px;
+}
+
+.textArea{
+    width:478px;
+    height:59px;
+    padding:6px 10px;
+    line-height:20px;
+    font-size:12px;
+    margin-left:5px;
+}
+
+
+
+
+.ProcessRMUp{
+    width:666px;
+    height:auto;
+}
+.ProcessRMUpM{
+    width:666px;
+    height:34px;
+    line-height:32px;
+}
+.ProcessRMUpM span{
+    width:84px;
+    height:34px;
+    font-size:14px;
+}
+.UpLoad{
+    width:91px;
+    height:34px;
+    margin-left:5px;
+    padding-left:45px;
+    cursor:pointer;
+    background:url(../../images/refundment/Apply/ApplyUpLoad.png) no-repeat center;
+}
+.ProcessRMUpM p{
+    margin-left:15px;
+}
+
+.ProcessRMUpPic{
+    width:440px;
+    height:auto;
+    margin-top:10px;
+    margin-left:90px;
+}
+.UpPic{
+    width:92px;
+    height:92px;
+    padding:2px;
+    margin-right:10px;
+    cursor:pointer;
+    position:relative;
+    z-index:1;
+}
+.UpPic img{
+    width:92px;
+    height:92px;
+}
+.UpPic a{
+    width:16px;
+    height:16px;
+    display:block;
+    background:url(../../images/refundment/Apply/ApplyRong.png) no-repeat center;
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index:2;
+    display:none;
+}
+.UpPic:hover a{
+    display:block;
+}
+
+
+
+.ProcessRMBtn{
+    width:130px;
+    height:40px;
+    line-height:39px;
+    background:url(../../images/refundment/Apply/ApplyBtn.png) no-repeat center;
+    margin-top:30px;
+    margin-left:90px;
+    _margin-left:0px;
+    _position:relative;
+    _left:90px;
+    text-align:center;
+}
+.ProcessRMBtn:hover{
+    background:url(../../images/refundment/Apply/btnHover.png) no-repeat center;
+}
+.ProcessRMBtn input{
+    width:130px;
+    height:40px;
+    line-height:38px;
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+}
+
+/*-------------------RefundReturnTwo END------------------*/
+
+
+
+/*
+    *以上是退款退货——买家申请
+    *
+    *以下是退款退货——卖家处理
+*/
+
+
+
+.RRThreeM{
+    width:687px;
+    height:auto;
+    position:relative;
+}
+.RRThreeMOne,.RRThreeMTwo{
+    width:672px;
+    height:auto;
+    padding-left:15px;
+}
+.RRThreeMOneT{
+    width:672px;
+    height:20px;
+    line-height:20px;
+    margin-bottom:20px;
+}
+.RRThreeMOneT h3{
+    font-size:16px;
+    color:#333;
+}
+.RRThreeMOneM{
+    width:672px;
+    height:auto;
+}
+.RRThreeMOneM p{
+    width:600px;
+    height:18px;
+    line-height:18px;
+    padding-left:16px;
+    background:url(../../images/refundment/Apply/ApplySHy.png) no-repeat left center;
+    margin-bottom:4px;
+    margin-left:7px;
+    overflow:hidden;
+}
+.RRThreeMOneM p i{
+    font-size:14px;
+    font-weight:bold;
+    font-family:'Microsoft YaHei';
+}
+.RRThreeMOneMCli{
+    width:330px;
+    height:20px;
+    line-height:20px;
+    margin:34px 0px  30px 0px;
+    color:#2e78d3;
+}
+.RRThreeMOneMCli a{
+    color:#2e78d3;
+    text-decoration:none;
+}
+.RRThreeMOneMCli a:hover{
+    color:#ff5656;
+}
+
+
+/*-------------------RRThreeMOne END------------------*/
+
+
+.RRThreeMTwo{
+    margin-top:18px;
+}
+.RRThreeMTwoM{
+    width:600px;
+    height:auto;
+    _position:relative;
+}
+.MTwoMPhoto{
+    width:56px;
+    height:56px;
+    position:relative;
+}
+.MTwoMPhoto img{
+    width:50px;
+    height:50px;
+    margin-top:3px;
+    margin-left:3px;
+}
+.MTwoMPhotoBor{
+    width:56px;
+    height:56px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:2;
+    background:url(../../images/refundment/Apply/UserPhotoBord.png) no-repeat center;
+}
+.MTwoMText{
+    width:510px;
+    height:56px;
+    padding-left:20px;
+}
+.MTwoMTextT{
+    width:510px;
+    height:20px;
+    line-height:20px;
+}
+.MTwoMTextT h2{
+    width:260px;
+    height:20px;
+    font-size:14px;
+}
+.MTwoMTextT em{
+    width:210px;
+    height:20px;
+}
+.MTwoMTextM{
+    width:510px;
+    height:20px;
+    line-height:20px;
+    margin-top:3px;
+}
+.MTwoMShed{
+    width:412px;
+    height:1px;
+    margin-top:20px;
+    background:url(../../images/refundment/Apply/ApplyCut.png) repeat-x center;
+}
+
+/*-------------------RRThreeMTwo END------------------*/
+
+
+
+/*
+    *以上是退款退货——卖家处理
+    *
+    *以下是退款退货——买家退货、卖家退款、地铁购退款、退款完成
+*/
+
+.RRThreeMOneMText{
+    width:600px;
+    height:auto;
+    line-height:20px;
+}
+.RRThreeMOneMText h3{
+    width:583px;
+    height:24px;
+    line-height:24px;
+    margin-left:6px;
+    color:#FF722C;
+    font-size:12px;
+    padding-left:17px;
+    background:url(../../images/refundment/Apply/ApplyPrompt.png) no-repeat left center;
+}
+.djs{
+    width:600px;
+    height:20px;
+    line-height:18px;
+    padding-left:16px;
+    margin-left:7px;
+    background:url(../../images/refundment/Apply/ApplySHy.png) no-repeat left center;
+    margin-bottom:4px;
+}
+.djs span{
+    width:600px;
+    height:20px;
+    line-height:20px;
+}
+.djs span a{
+    width:217px;
+    height:20px;
+    text-decoration:none;
+}
+.djs span a b{
+    width:141px;
+    height:20px;
+    line-height:20px;
+    display:inline-block;
+    color:#000;
+    padding-left:15px;
+    background:url(../../images/refundment/Apply/ApplyDjsBj.png) no-repeat left center;
+}
+.djs span a b em{
+    font-family:'Microsoft YaHei';
+    font-weight:bold;
+    color:#ff5656;
+}
+.paddRight{
+    width:510px;
+    padding-left:10px;
+}
+.RRThreeMOneMBD{
+    width:600px;
+    height:auto;
+}
+.MOneMBDTop{
+    width:580px;
+    height:20px;
+    line-height:20px;
+    margin-top:11px;
+    padding-left:24px;
+}
+.MOneMBDTop h2{
+    font-size:14px;
+}
+.MOneMBDM{
+    width:600px;
+    height:auto;
+    _position:relative;
+}
+.BDMLogisticsN{
+    width:556px;
+    height:30px;
+    line-height:30px;
+    margin-top:10px;
+    padding-left:44px;
+}
+.BDMLogisticsN span{
+    display:block;
+    width:66px;
+    height:30px;
+    margin-right:3px;
+}
+.BDMLogisticsN input{
+    width:203px;
+    height:28px;
+    line-height:28px;
+    padding-left:10px;
+    color:#333;
+    font-size:12px;
+}
+.BDMLogisticsMation{
+    width:440px;
+    height:53px;
+    padding:6px 10px;
+    line-height:20px;
+    font-size:12px;
+}
+.BDMLogisticsN a{
+    width:121px;
+    height:34px;
+    line-height:32px;
+    text-align:center;
+    padding-left:15px;
+    text-decoration:none;
+    background:url(../../images/refundment/Apply/ApplyUpLoad.png) no-repeat top center;
+}
+.BDMLogisticsN a:hover{
+    color:#666;
+}
+.MOneMBDM .ProcessRMBtn{
+    _position:relative;
+    _left:115px;
+    margin-left:115px;
+    _margin-left:0px;
+
+}
+
+
+
+.FinshE{
+    width:540px;
+    height:40px;
+    line-height:40px;
+    padding-left:60px;
+    font-size:16px;
+    background:url(../../images/refundment/Apply/ApplySecces.png) no-repeat left center;
+}
+
+/*----------------END-------------------*/
+
+
+/*
+    *以上是退款退货——买家退货、卖家退款、地铁购退款、退款完成
+    *
+    *以下是退款——卖家处理
+*/
+
+
+
+.ProcessLBJts{
+    width:2px;
+    height:350px;
+    display:block;
+    background:#ccc;
+    position:absolute;
+    _position:absolute;
+    right:26px;
+    _right:26px;
+    top:65px;
+    _top:65px;
+    z-index:1;
+    _z-index:1;
+}
+.ProcessLBJtGs{
+    width:2px;
+    height:20px;
+    background:#7abd54;
+}
+.ClipsBs{
+    width:33px;
+    height:11px;
+    position:absolute;
+    _position:absolute;
+    top:440px;
+    _top:440px;
+    background:url(../../images/refundment/Apply/ApplySuoKou.png) no-repeat center;
+}

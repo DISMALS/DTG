@@ -1,0 +1,78 @@
+个人中心首页：personal_index.html （有内容时）
+	      personal_index_nothing.html（无内容时）
+
+
+我的订单：myOrder_index.html(有内容时)  
+	  myOrder_index_nothing.html（无内容时）
+
+我的订单状态：Order_detail_dfk.html（待付款）
+	      Order_detail_dpj.html（待评价）
+ 	      Order_detail_dsh.html（待收货）
+	      Order_detail_qdsh.html（确定收货）
+	      Order_detail_wfh.html（未付款）
+	      Order_detail_close.html（交易关闭）
+
+
+购物车：ShoppingCart_ Referring.html（提交）
+	ShoppingCart_Confirm.html(确认)、
+	ShoppingCart_Preserve.html(收货地址)
+
+购物车空时：ShoppingCart_ Referring_nothing.html
+
+
+我的收藏：Collect_index.html(收藏商品与商家)
+收藏为空时：Collect_index_nothing.html
+
+
+退款退货记录：RefundReturnEight.html(退货退款管理列表)
+退款退货记录为空时：RefundReturnEight_nothing.html
+
+
+退款退货第一步：Refundment_index.html（退款和退货退款共用第一步）
+
+退款第二步：RefundTwo.html
+退款第三步：RefundThree.html
+退款第四步：RefundFour.html
+退款第五步：RefundFive.html
+
+退款退货第二步：RefundReturnTwo.html
+退款退货第三步：RefundReturnThree.html
+退款退货第四步：RefundReturnFour.html
+退款退货第五步：RefundReturnFive.html
+退款退货第六步：RefundReturnSix.html
+退款退货第七步：RefundReturnSeven.html
+
+
+
+投诉：Complaints_index.html(我要投诉和投诉记录)
+投诉记录为空时：Complaints_index_nothing.html
+
+
+个人资料：PersonalImformation.html(个人信息和修改头像)
+
+
+安全中心：SecurityCenter_index.html(安全中心首页)
+
+修改密码第一步：ChangePasswordSId.html
+修改密码第二步：ChangePasswordCG.html
+修改密码第三步：ChangePasswordSecc.html
+
+邮箱绑定第一步：EmailBindingYZID.html
+邮箱绑定第二步：EmailBindingbd.html
+邮箱绑定跳转页：EmailBindingbd_yz.html
+邮箱绑定第三步：EmailBindingSecc.html
+
+手机绑定第一步：PhonBindingYZID.html
+手机绑定第二步：PhonBindingbd.html
+手机绑定第三步：PhonBindingSecc.html
+
+首次绑定手机第一步：FirstBindingPhon.html
+首次绑定手机第二步：FirstBindingPhonSecc.html
+
+首次绑定邮箱第一步：FirstBindingEmail.html
+首次绑定邮箱跳转页：FirstBindingEmail_yz.html
+首次绑定邮箱第二步：FirstBindingEmailSecc.html
+
+
+
+

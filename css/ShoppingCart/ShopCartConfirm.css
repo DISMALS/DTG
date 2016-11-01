@@ -1,0 +1,797 @@
+﻿@charset "utf-8";
+/*
+    *制作时间：2015-10-27
+    *使用软件：VS2015
+    *作者：王勇
+    *用途：地铁购PC端购物车确认页面
+    *
+    *
+*/
+.ShopCart{
+	width:1000px;
+	height:auto;
+	margin-top:50px;
+    margin-bottom:40px;
+}
+.ShopCartTop{
+	width:1000px;
+	height:65px;
+	margin-bottom:36px;
+}
+.ShopCartTopL{
+	width:137px;
+	height:65px;
+}
+.ShopCartTopL img{
+	width:137px;
+	height:65px;
+}
+.ShopCartTopR{
+	width:520px;
+	height:52px;
+	position:relative;
+	top:6.5px;
+}
+.TopRHuiB{
+	width:460px;
+	height:20px;
+	display:block;
+	background:url(../../images/ShopCart/grayB.jpg) repeat-x left center;
+	position:relative;
+	z-index:2;
+}
+.TopRLanB{
+	width:20px;
+	height:4px;
+	background:#7abd54;
+	position:absolute;
+	top:8px;
+	z-index:3;
+}
+.ShopCartTopROne{
+	width:80px;
+	height:52px;
+	position:relative;
+	z-index:4;
+	text-align:center;
+}
+.ShopCartTopROne span{
+	width:20px;
+	height:20px;
+	line-height:20px;
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+}
+.ShopCartTopROne h3{
+	width:80px;
+	height:32px;
+	line-height:32px;
+    font-size:12px;
+}
+.ShopCartTopROne h3.NoSel {
+    color:#bfbfbf;
+}
+.PosiO{
+	top:0px;
+	left:-30px;
+}
+.PosiT{
+	top:-52px;
+	left:190px;
+}
+.PosiTH{
+	top:-104px;
+	left:410px;
+}
+.Lan{
+	background:url(../../images/ShopCart/i_green_bg.png) no-repeat center;
+}
+.Hui{
+	background:url(../../images/ShopCart/i_gray_bg.png) no-repeat center;
+}
+.widTH {
+    width:230px;
+    height:4px;
+}
+.SeccesPic {
+    background:url(../../images/ShopCart/wancheng.png) no-repeat center;
+}
+
+
+/*--------------------ShopCartTop END-----------------------*/
+
+.SureAddress {
+    width:998px;
+    height:auto;
+    border:1px solid #e5e5e5;
+}
+
+.ConfirmTitle {
+    width:984px;
+    height:44px;
+    line-height:44px;
+    padding-left:14px;
+}
+.ConfirmTitle h2{
+    font-size:16px;
+    font-weight:bold;
+    color:#333;
+}
+.ConfirmTitle h2 a{
+    font-size:12px;
+    color:#2e78d3;
+    margin-left:15px;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+
+/*--------------------ConfirmTitle END-----------------------*/
+
+
+.ConfirmAddress {
+    width:998px;
+    height:auto;
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    padding:33px 0px 70px 0px;
+}
+.AddressOne,.addAddress {
+    width:256px;
+    height:142px;
+    padding:26px;
+    margin:0px 12px;
+    _margin:0px 10px;
+}
+.AddressOneA {
+    background:url(../../images/ShopCart/selectBorPic.png) no-repeat center;
+}
+.AddressOneAs {
+    background:url(../../images/ShopCart/selectBorPic.png) no-repeat center;
+}
+.AddressOneBs {
+    background:url(../../images/ShopCart/blurBorPic.png) no-repeat center;
+}
+.AddressOneC {
+    cursor:pointer;
+    background:url(../../images/ShopCart/UpBorPic.png) no-repeat center;
+}
+.AddressOneT,.AddressTwoT {
+    width:256px;
+    height:29px;
+    border-bottom:1px solid #f3f3f3;
+}
+.AddressOneT h4,.AddressTwoT h4{
+    width:90px;
+    height:30px;
+    font-size:14px;
+}
+.AddressOneT a{
+    width:22px;
+    height:22px;
+    display:block;
+}
+.AddressOneM {
+    width:256px;
+    height:auto;
+    line-height:20px;
+    margin-top:7px;
+}
+.AddressOneM p{
+    width:236px;
+    padding-left:20px;
+    font-size:12px;
+    color:#666;
+    margin-bottom:10px;
+    
+}
+.map {
+    background:url(../../images/ShopCart/mapPic_g.png) no-repeat 3px 5px;
+}
+.phon {
+    background:url(../../images/ShopCart/phonePic_g.png) no-repeat 3px center;
+}
+
+.AddressOneBss{
+    width:236px;
+    height:20px;
+    text-align:center;
+    line-height:20px;
+    margin-left:10px;
+}
+.AddressOneBss em{
+    font-family:SimSun;
+}
+.no{
+    cursor:default;
+    color:#bbb;
+    display:block;
+}
+.yes{
+    color:#72c6f8;
+    cursor:pointer;
+    display:none;
+}
+.AddressOneBss span{
+    width:80px;
+    height:20px;
+    color:#72c6f8;
+}
+.AddressOneBss span a{
+    color:#72c6f8;
+    text-decoration:none;
+    font-family:SimSun;
+}
+.AddressOneBss span a:hover{
+    color:#2e78d3;
+}
+.gre{
+    background:url(../../images/ShopCart/rightPic_g.png) no-repeat center;
+}
+.gra{
+    background:url(../../images/ShopCart/rightPic_h.png) no-repeat center;
+}
+
+/*--------------------AddressOne END-----------------------*/
+
+.maps {
+    background:url(../../images/ShopCart/mapPic_h.png) no-repeat 3px 5px;
+}
+.phons {
+    background:url(../../images/ShopCart/phonPic_h.png) no-repeat 3px center;
+}
+/*--------------------AddressTwoT END-----------------------*/
+
+.addAddress span {
+    display:block;
+    width:256px;
+    height:100%;
+    text-decoration:none;
+}
+.addAddress img {
+    width:66px;
+    height:66px;
+    display:block;
+    margin:22px auto 10px 94px;
+}
+.addAddress em {
+    width:256px;
+    height:20px;
+    font-size:14px;
+    color:#cfd5ee;
+    display:block;
+    text-align:center;
+}
+
+
+
+/*--------------------addAddress END-----------------------*/
+
+
+
+.SendTime {
+    width:998px;
+    height:118px;
+    background:#fbfbfb;
+    position:relative;
+    z-index:1;
+}
+.SendTimeL {
+    width:112px;
+    height:79px;
+    line-height:118px;
+    text-align:center;
+    padding-top:39px;
+}
+.SendTimeL h2{
+    font-size:16px;
+    line-height:20px;
+    width:36px;
+    font-weight:bold;
+    color:#333;
+}
+.SendTimeR {
+    width:860px;
+    height:56px;
+    margin-left:20px;
+    margin-top:31px;
+}
+.SendTimeR a{
+    display:block;
+}
+.SendTimeRM{
+    width:143px;
+    height:56px;
+    margin-right:33px;
+    margin-left:33px;
+}
+.SendTimeRML {
+    width:6px;
+    height:56px;
+    background:url(../../images/ShopCart/selectPicR.png) no-repeat center;
+}
+.SendTimeRMLs {
+    width:6px;
+    height:56px;
+}
+
+.SendTimeRMC {
+    text-align:center;
+}
+.SendTimeRMCW{
+    width:121px;
+    display:block;
+}
+.SendTimeRMC span{
+    font-size:14px;
+    color:#666666;
+}
+.SendTimeRMR {
+    width:16px;
+    height:56px;
+    background:url(../../images/ShopCart/selectPicL.png) no-repeat center;
+}
+.SendTimeRMRs {
+    width:16px;
+    height:56px;
+}
+
+.SendTimeRMSL{
+    width:180px;
+    height:56px;
+    margin-right:33px;
+    margin-left:33px;
+}
+.SendTimeRMCL {
+    width:158px;
+    text-align:center;
+    font-size:14px;
+    color:#666666;
+    display:block;
+    
+}
+.fl {
+    width:2px;
+    height:25px;
+    background:url(../../images/ShopCart/flPic.png) no-repeat center;
+    margin-top:15px;
+}
+
+.kouPic, .kouPics{
+    width:11px;
+    height:33px;
+    background:url(../../images/ShopCart/call.png) no-repeat center;
+}
+.positionF {
+    position:absolute;
+    top:-16.5px;
+    left:25px;
+    z-index:2;
+}
+.positionP {
+    position:absolute;
+    top:-16.5px;
+    right:25px;
+    z-index:2;
+}
+.borDN{
+    height:56px;
+    line-height:56px;
+    border:none;
+}
+.borD{
+    height:52px;
+    line-height:52px;
+    border-top:2px solid #7abd54;
+    border-bottom:2px solid #7abd54;
+}
+
+
+/*--------------------ConfirmAddress END-----------------------*/
+
+
+.OrderImformation {
+    width:998px;
+    height:auto;
+    border:1px solid #e5e5e5;
+    margin-top:20px;
+}
+.OrderImformationT{
+    width:984px;
+    height:44px;
+    line-height:44px;
+    padding-left:14px;
+    border-bottom:1px solid #e5e5e5;
+}
+.OrderImformationT h2{
+    color:#333;
+    font-size:16px;
+    font-weight:bold;
+}
+.OrderImformationM{
+    width:960px;
+    height:auto;
+}
+
+
+
+
+.OrderImformationMT{
+    width:960px;
+    height:36px;
+    line-height:36px;
+    margin-top:20px;
+    background:#f5f5f5;
+}
+.OrderImformationMT h3{
+    font-size:14px;
+    color:#666;
+}
+.proName{
+    width:344px;
+    height:36px;
+    
+}
+.proPri{
+    width:153px;
+    height:36px;
+    margin-left:50px;
+}
+.proMuch{
+    width:130px;
+    height:36px;
+}
+.proCut{
+    width:157px;
+    height:36px;
+}
+.proTotal{
+    width:106px;
+    height:36px;
+    padding-right:20px;
+}
+
+
+
+/**----------------OrderImformationMT END-----------------**/
+
+
+
+.ImformationMOne{
+    width:958px;
+    height:auto;
+    border:1px solid #e5e5e5;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.ImformationMOneT{
+    width:943px;
+    height:39px;
+    line-height:38px;
+    padding-left:15px;
+    border-bottom:1px solid #e5e5e5;
+}
+.ImformationMOneT h4{
+    font-size:12px;
+    color:#666;
+}
+
+.ImformationMOneM{
+    width:920px;
+    height:auto;
+}
+.MOneMPro{
+    width:920px;
+    height:auto;
+    border-bottom:1px solid #e5e5e5;
+    padding:14px 0px 20px;
+    margin-bottom:6px;
+}
+.MOneMProDiv{
+    height:70px;
+    line-height:21px;
+}
+.MOneMPro em{
+    color:#333333;
+}
+.MOneMPro img{
+    width:68px;
+    height:68px;
+    border:1px solid #e5e5e5;
+}
+.MOneMProT{
+    width:260px;
+    margin-left:14px;
+    font-family:SimSun;
+}
+.MOneMProT a{
+    text-decoration:none;
+}
+.MOneMProT h3{
+    width:260px;
+    max-height:36px;
+    color:#333;
+    line-height:18px;
+    overflow:hidden;
+    font-size:12px;
+}
+.MOneMProT h3:hover{
+    color:#ff5656;
+}
+.MOneMProT h5{
+    color:#999;
+    font-size:12px;
+}
+.MOneMProP{
+    width:153px;
+    margin-left:30px;
+}
+.MOneMProM{
+    width:130px;
+}
+.MOneMProC{
+    width:157px;
+}
+.MOneMProTO{
+    width:106px;
+}
+
+
+
+/**----------------ImformationMOne END-----------------**/
+
+
+
+.giveTalk{
+    width:910px;
+    height:auto;
+    margin-top:15px;
+    padding:0px 5px;
+    margin-bottom:8px;
+}
+.giveTalkL{
+    width:475px;
+    height:auto;
+    line-height:28px;
+}
+.giveTalkL span{
+    width:64px;
+    height:28px;
+    display:block;
+    font-family:SimSun;
+    color:#666;
+}
+.giveTalkL textarea{
+    width:378px;
+    height:55px;
+    line-height:20px;
+    border:1px solid #e5e5e5;
+    background:#fcfffa;
+    padding:6px 10px 6px 10px ;
+    color:#999999;
+    font-family:SimSun;
+    font-size:12px;
+    margin-left:5px;
+    overflow-y:auto;
+}
+.giveTalkL textarea.hei{
+    width:388px;
+    height:28px;
+    line-height:28px;
+    border:1px solid #e5e5e5;
+    background:#fcfffa;
+    padding:0px 0px 0px 10px ;
+    color:#999999;
+    font-family:SimSun;
+    font-size:12px;
+    margin-left:5px;
+    overflow-y:auto;
+}
+.giveTalkL b{
+    width:130px;
+    height:20px;
+    display:block;
+    margin-left:69px;
+    font-family:SimSun;
+    color:#bababa;
+
+}
+.giveTalkR{
+    width:260px;
+    height:56px;
+    line-height:20px;
+}
+.giveTalkR p{
+    color:#999999;
+    font-family:SimSun;
+}
+ .giveTalkR p i{
+     font-family:'Microsoft YaHei';
+     color:#ff5656;
+     font-size:14px;
+ }
+ #wenzZO{
+     width:70px;
+     height:20px;
+     text-align:right;
+     float:left;
+ }
+ #MuchText{
+     width:22px;
+     height:20px;
+     float:left;
+     text-align:center;
+ }
+
+
+
+ /**----------------giveTalk END-----------------**/
+
+
+
+
+.MListBT{
+	width:998px;
+	height:44px;
+	line-height:46px;
+	text-align:right;
+	border:1px solid #e5e5e5;
+	position:relative;
+	z-index:1;
+	margin-top:25px;
+}
+.MListBT span{
+    width:auto;
+    height:44px;
+    display:block;
+    float:right;
+	color:#999999;
+	font-size:14px;
+}
+.MListBT span em{
+	color:#ff5656;
+}
+.MListBT span i{
+	color:#ff5656;
+	font-size:16px;
+	font-weight:bold;
+}
+.MListBT input{
+	width:126px;
+	height:44px;
+    float:right;
+	line-height:44px;
+	text-align:center;
+	color:#fff;
+	background:#dddddd;
+	font-size:20px;
+	font-weight:bold;
+	margin-left:20px;
+}
+.MListBT input.Bs{
+	width:126px;
+	height:46px;
+	background:#ff5656;
+	margin-top:-1px;
+	margin-right:-1px;
+	cursor:pointer;
+}
+
+
+ /**----------------MListBT END-----------------**/
+
+
+ /*--------------以下是弹窗添加新地址--------------*/
+
+ .allPop{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0px;
+    z-index:9999999;
+    background:url(../../images/popUp/popUpB.png) repeat center;
+    display:none;
+ }
+.addAddresPop{
+    width:670px;
+    height:400px;
+    position:relative;
+    top:25%;
+    left:33%;
+}
+.PreserveMA{
+    width:632px;
+    height:271px;
+    padding:15px 0px 58px 20px;
+}
+.PreserveMAo{
+    width:632px;
+}
+.AddresPopL{
+    width:9px;
+    height:400px;
+    background:url(../../images/ShopCart/shopCartPopL.png) no-repeat right center;
+}
+.AddresPopR{
+    width:9px;
+    height:400px;
+    background:url(../../images/ShopCart/shopCartPopR.png) no-repeat left center;
+}
+.AddresPopC{
+    width:652px;
+    height:400px;
+    background:url(../../images/ShopCart/shopCartPopC.png) repeat-x center;
+}
+.AddresPopC h3.popTitle{
+    width:240px;
+    height:38px;
+    line-height:38px;
+    font-size:14px;
+    padding-left:10px;
+    margin-top:5px;
+}
+.AddresPopC a.AddresPopClose{
+    width:10px;
+    height:10px;
+    margin-top:18px;
+    margin-right:10px;
+    background:url(../../images/ShopCart/shopCartClose.png) no-repeat center;
+}
+p.rang{
+    min-width:81px;
+    height:30px;
+    line-height:30px;
+    padding-left:19px;
+    margin-left:10px;
+    background:url(../../images/ShopCart/tanhao.png) no-repeat left center;
+    color:#ff5756;
+}
+p.allright{
+    min-width:81px;
+    height:30px;
+    line-height:30px;
+    padding-left:19px;
+    margin-left:10px;
+    background:url(../../images/ShopCart/shopCartRight.png) no-repeat left center;
+    color:#6cac49;
+}
+.emptyImfomation{
+    width:315px;
+    height:282px;
+    padding-top:70px;
+}
+.emptyImfomation h4{
+    width:218px;
+    font-size:16px;
+    height:52px;
+    line-height:52px;
+    padding-left:67px;
+    color:#3B3B3B;
+    background:url(../../images/ShopCart/emptyIcon.png) no-repeat left center;
+}
+.emptyImfomation input{
+    width:130px;
+    height:36px;
+    line-height:35px;
+    text-align:center;
+    font-size:14px;
+    color:#5b5b5b;
+    display:inline-block;
+    cursor:pointer;
+    background:url(../../images/popUp/qx_dd_btns.png) no-repeat center;
+}
+.emptyImfomation input.sureEM{
+   margin-right:20px;
+   margin-top:30px; 
+}
+.emptyImfomation input.noEM{
+    margin-top:30px;
+}
+
+
+
+
+
+
